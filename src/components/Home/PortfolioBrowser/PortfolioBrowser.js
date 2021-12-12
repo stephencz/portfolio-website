@@ -8,9 +8,22 @@ import SkillSearch from '../SkillSearch/SkillSearch';
 import './PortfolioBrowser.scss';
 
 const PortfolioBrowser = (props) => {
+
+  const data = useStaticQuery(graphql`
+  query {
+    dataJson {
+      skills {
+        frameworks
+        languages
+        tools
+      }
+    }
+  }  
+  `);
+
   return (
     <div className="portfolio-browser-wrapper">
-      <SkillSearch />
+      <SkillSearch data={data} />
     </div>
   );
 }
