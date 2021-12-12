@@ -1,0 +1,50 @@
+{
+  "fullname": "Stephen Czekalski",
+  "job-title": "Full Stack Software Engineer",
+  "education": [
+    {
+      "school": "Rowan University",
+      "degree": "B.A. Computing and Informatics",
+      "completed": "August 2021",
+      "gpa": "3.8"
+    }
+  ],
+  "skills": {
+    "languages": [
+      "Bash", 
+      "CSS",
+      "HTML",
+      "Java",
+      "Javascript",
+      "Liquid",
+      "PHP",
+      "Python",
+      "Ruby",
+      "SQL"
+    ],
+    "tools": [
+      "AWS",
+      "DigitalOcean",
+      "Eclipse",
+      "Git",
+      "Gradle",
+      "Make/CMake",
+      "Meson",
+      "Visual Studio",
+      "Visual Studio Code"
+    ],
+    "frameworks": [
+      "Bootstrap",
+      "Electron",
+      "Express.js",
+      "Gatsby",
+      "Jekyll",
+      "Node.js",
+      "React",
+      "Redux",
+      "Ruby on Rails",
+      "Sequelize",
+      "WordPress"
+    ]
+  }
+}

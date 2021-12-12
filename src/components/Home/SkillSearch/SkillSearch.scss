@@ -1,0 +1,11 @@
+$primary-color: #232323;
+$secondary-color: #efefef;
+
+.skill-search-wrapper
+{
+  border-bottom: 5px solid #d8d8d8;
+  background-color: $primary-color;
+  color: $secondary-color;
+  padding-top: $unit-two;
+  padding-bottom: $unit-two;
+}

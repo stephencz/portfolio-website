@@ -1,0 +1,81 @@
+$primary-color: #898989;
+$secondary-color: #d8d8d8;
+$ternary-color: #232323;
+$name-color: #665E51;
+
+
+.introduction-wrapper
+{
+  border-bottom: 5px solid $secondary-color;
+  background-color: #fff;
+  margin-top: $unit-two;
+  padding-bottom: $unit-four;
+}
+
+.introduction-wrapper h1.fullname
+{
+  color: $name-color;
+
+  font-weight: 300;
+  font-size: $unit-two;
+  line-height: $unit-three;
+
+  margin-bottom: 0px;
+}
+
+.introduction-wrapper h2.title
+{
+  color: $name-color;
+  
+  font-weight: 700;
+  font-size: $unit-two;
+  line-height: $unit-three;
+
+  margin-bottom: $unit-one;
+}
+
+.introduction-wrapper .biography
+{
+  font-weight: 300;
+  font-size: $unit-one;
+  line-height: $unit-one-half;
+
+  margin-bottom: $unit-two;
+}
+
+.introduction-wrapper .author-image
+{
+  display: block;
+
+  border-radius: 20px;
+  border: 1px solid $secondary-color;
+  
+  max-width: 300px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 991.98px)
+{
+  .introduction-wrapper .author-image
+  {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 767.98px)
+{
+  .introduction-wrapper .fullname
+  {
+    padding-bottom: $unit-half;
+  }
+
+  .introduction-wrapper .fullname,
+  .introduction-wrapper .title
+  {
+    font-size: $unit-one;
+    line-height: $unit-one;
+  }
+}
