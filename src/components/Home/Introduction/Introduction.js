@@ -34,7 +34,7 @@ const HomeIntroduction = (props) => {
               </p>    
               <p>
                 Over the years, I've had the oppurtunity to work with a wide variety of programming languages, frameworks, and tools.
-                I've designed websites, full stack web applications, traditional software, plugins, and more.
+                I've designed websites, full stack web applications, traditional software, video games, plugins, and more.
               </p>
               
               <p>

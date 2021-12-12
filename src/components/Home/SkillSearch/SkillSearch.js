@@ -59,6 +59,15 @@ const SkillSearch = (props) => {
         { generateSkillSection("Languages I Know: ", props.data, "languages") }
         { generateSkillSection("Tools I've Used: ", props.data, "tools") }
         { generateSkillSection("Frameworks I've Worked With: ", props.data, "frameworks") }
+
+        <Row>
+          <Col className="mx-auto" lg={10}>
+            <div className="skill-section">
+            <div className="section-header">Search:</div>
+              <input className="search-bar" type="text" placeholder="Search or click a skill to find matching projects" ></input>
+            </div>
+          </Col>
+        </Row>
       </Container>
     </div>
   );

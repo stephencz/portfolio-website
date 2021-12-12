@@ -1,32 +1,81 @@
 $primary-color: #232323;
 $secondary-color: #efefef;
 
+$button-inactive-color: #9f9f9f;
+$button-hover-color: #efefef;
+
 .skill-search-wrapper
 {
   border-bottom: 5px solid #d8d8d8;
   background-color: $primary-color;
   color: $secondary-color;
   padding-top: $unit-two;
-  padding-bottom: $unit-two;
+  padding-bottom: $unit-one;
 }
 
 .skill-search-wrapper .skill-section
 {
-
+  margin-bottom: $unit-one;
 }
 
 .skill-search-wrapper .section-header
 {
   font-weight: 700;
+  margin-bottom: $unit-half;
 }
 
-
-.skill-search-wrapper .section-buttons
-{
-
-}
 
 .skill-search-wrapper .section-buttons .skill-button
 {
   display: inline-block;
+
+  border-radius: 10px;
+
+  color: $primary-color;
+  background-color: $button-inactive-color;
+
+  padding: 5px 10px 5px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+  -webkit-transition: all 0.075s ease-in-out;
+  -moz-transition:    all 0.075s ease-in-out;
+  -o-transition:      all 0.075s ease-in-out;
+  -ms-transition:     all 0.075s ease-in-out;
+  transition:         all 0.075s ease-in-out;
+}
+
+.skill-search-wrapper .section-buttons .skill-button:hover,
+.skill-search-wrapper .section-buttons .skill-button:active
+{
+  background-color: $button-hover-color;
+}
+
+.skill-search-wrapper input.search-bar
+{
+  border-radius: 10px;
+  border: none;
+
+  color: $primary-color;
+  background-color: $button-inactive-color;
+  
+  padding: 5px 10px 5px 10px;
+
+  width: 100%;
+
+  -webkit-transition: all 0.075s ease-in-out;
+  -moz-transition:    all 0.075s ease-in-out;
+  -o-transition:      all 0.075s ease-in-out;
+  -ms-transition:     all 0.075s ease-in-out;
+  transition:         all 0.075s ease-in-out;
+
+}
+
+.skill-search-wrapper input[type=text].search-bar:hover,
+.skill-search-wrapper input[type=text].search-bar:focus
+{
+  background-color: $secondary-color;
+  box-shadow: 0 1px 1px rgb(165, 165, 165) inset, 0 0 1px rgb(161, 161, 161);
+  outline: 0 none;
+
 }

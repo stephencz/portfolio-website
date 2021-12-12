@@ -1,15 +1,17 @@
 $primary-color: #898989;
 $secondary-color: #d8d8d8;
 $ternary-color: #232323;
-$name-color: #665E51;
+$name-color: #000;
+$title-color: #000;
 
 
 .introduction-wrapper
 {
   border-bottom: 5px solid $secondary-color;
   background-color: #fff;
-  margin-top: $unit-two;
-  padding-bottom: $unit-four;
+  margin-top: $unit-four;
+  padding-bottom: $unit-two;
+  min-height: 70vh;
 }
 
 .introduction-wrapper h1.fullname
@@ -25,7 +27,7 @@ $name-color: #665E51;
 
 .introduction-wrapper h2.title
 {
-  color: $name-color;
+  color: $title-color;
   
   font-weight: 700;
   font-size: $unit-two;

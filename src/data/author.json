@@ -28,10 +28,11 @@
       "Eclipse",
       "Git",
       "Gradle",
+      "Linux",
       "Make/CMake",
       "Meson",
-      "Visual Studio",
-      "Visual Studio Code"
+      "Visual Studio Code",
+      "Windows"
     ],
     "frameworks": [
       "Bootstrap",
@@ -42,7 +43,6 @@
       "Node.js",
       "React",
       "Redux",
-      "Ruby on Rails",
       "Sequelize",
       "WordPress"
     ]
