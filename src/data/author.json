@@ -11,7 +11,6 @@
   ],
   "skills": {
     "languages": [
-      "Bash", 
       "CSS",
       "HTML",
       "Java",
@@ -20,6 +19,7 @@
       "PHP",
       "Python",
       "Ruby",
+      "Sass",
       "SQL"
     ],
     "tools": [
@@ -29,8 +29,6 @@
       "Git",
       "Gradle",
       "Linux",
-      "Make/CMake",
-      "Meson",
       "Visual Studio Code",
       "Windows"
     ],
@@ -44,7 +42,9 @@
       "React",
       "Redux",
       "Sequelize",
-      "WordPress"
+      "WordPress",
+      "LibGDX",
+      "Qt"
     ]
   }
 }

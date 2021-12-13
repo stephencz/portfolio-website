@@ -18,6 +18,9 @@ import './SkillSearch.scss';
  */
 const SkillSearch = (props) => {
 
+  /** The buttons that are active i.e. skills that are being searched for. */
+  const [activeButtons, setActiveButtons] = useState([]);
+
   /**
    * Generates a skill section which contains skill buttons the user can
    * use to search for portfolio projects that used that particular skill.
@@ -48,9 +51,22 @@ const SkillSearch = (props) => {
    * @returns 
    */
   const generateSkillButtons = (data, skillset) => {
-    return data.dataJson.skills[skillset].map((skill, index) => {
-      return <SkillButton key={index} text={ skill } />
+    return data.dataJson.skills[skillset].sort().map((skill, index) => {
+      return <SkillButton 
+              key={index} 
+              text={ skill } 
+              browserData={ props.browserData }
+              setBrowserData={ props.setBrowserData }
+              />
     });
+  }
+
+  /**
+   * Updates the search data based on search bar input.
+   * @param {*} event 
+   */
+  const handleSearchBarUpdate = (event) => {
+    props.setBrowserData({...props.browserData, searchData: event.target.value, activeButtons: []});
   }
 
   return (
@@ -64,7 +80,13 @@ const SkillSearch = (props) => {
           <Col className="mx-auto" lg={10}>
             <div className="skill-section">
             <div className="section-header">Search:</div>
-              <input className="search-bar" type="text" placeholder="Search or click a skill to find matching projects" ></input>
+              <input 
+                className="search-bar" 
+                type="text" 
+                placeholder="Search by project name or description" 
+                onKeyUp={ (event) => handleSearchBarUpdate(event) }
+              >
+              </input>
             </div>
           </Col>
         </Row>

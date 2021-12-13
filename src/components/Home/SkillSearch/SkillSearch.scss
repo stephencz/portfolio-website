@@ -1,7 +1,7 @@
 $primary-color: #232323;
 $secondary-color: #efefef;
 
-$button-inactive-color: #9f9f9f;
+$button-inactive-color: #828282;
 $button-hover-color: #efefef;
 
 .skill-search-wrapper
@@ -36,7 +36,7 @@ $button-hover-color: #efefef;
 
   padding: 5px 10px 5px 10px;
   margin-right: 10px;
-  margin-bottom: 10px;
+  margin-bottom: $unit-half;
 
   -webkit-transition: all 0.075s ease-in-out;
   -moz-transition:    all 0.075s ease-in-out;
@@ -46,7 +46,7 @@ $button-hover-color: #efefef;
 }
 
 .skill-search-wrapper .section-buttons .skill-button:hover,
-.skill-search-wrapper .section-buttons .skill-button:active
+.skill-search-wrapper .section-buttons .skill-button.active
 {
   background-color: $button-hover-color;
 }

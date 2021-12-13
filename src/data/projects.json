@@ -1,14 +1,140 @@
 [
   {
-    "name": "",
+    "project-id": "task-manager",
+    "name": "Task Manager",
     "description": "",
-    "url": "",
+    "url": "/portfolio/task-manager",
     "image": "",
     "skills": [
-
-    ],
-    "project-type": "",
-    "container-color": "",
-    "font-color-color": ""
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React",
+      "Redux",
+      "Node.js",
+      "Express.js",
+      "SQL",
+      "MySQL",
+      "Git",
+      "Linux",
+      "Visual Studio Code"
+    ]
+  },
+  {
+    "id": "top-fifty-games",
+    "name": "Top Fifty Games",
+    "description": "Top Fifty Games was a semester long, team development project. ",
+    "url": "/portfolio/top-fifty-games",
+    "image": "",
+    "skills": [
+      "HTML",
+      "CSS",
+      "PHP",
+      "SQL",
+      "Bootstrap",
+      "Linux",
+      "Windows",
+      "AWS",
+      "DigitalOcean",
+      "Nginx",
+      "MySQL",
+      "Git"
+    ]
+  },
+  {
+    "id": "jekyll-chess",
+    "name": "Jekyll Chess",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "url": "/portfolio/test-project-1",
+    "image": "",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Sass",
+      "Liquid",
+      "Jekyll",
+      "Ruby",
+      "Linux",
+      "Git"
+    ]
+  },
+  {
+    "id": "stephencz-com",
+    "name": "Personal Website",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "url": "/portfolio/Test Project 2",
+    "image": "",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Sass",
+      "Jekyll",
+      "Ruby",
+      "Linux",
+      "Git",
+      "AWS",
+      "DigitalOcean",
+      "Nginx"
+    ]
+  },
+  {
+    "id": "portfolio-website",
+    "name": "Portfolio Website",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "url": "/portfolio/test-project-3",
+    "image": "",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Sass",
+      "Javascript",
+      "React",
+      "Gatsby",
+      "Linux",
+      "Git",
+      "Bootstrap"
+    ]
+  },
+  {
+    "id": "maze-game",
+    "name": "Maze Game",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "url": "/portfolio/top-fifty-games",
+    "image": "",
+    "skills": [
+      "Java",
+      "Gradle",
+      "LibGDX",
+      "Linux",
+      "Git"
+    ]
+  },
+  {
+    "id": "poly-roller",
+    "name": "Poly Roller",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "url": "/portfolio/top-fifty-games",
+    "image": "",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React",
+      "Linux",
+      "Git"
+    ]
+  },
+  {
+    "id": "py-pomodoro",
+    "name": "Py Pomodoro",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "url": "/portfolio/top-fifty-games",
+    "image": "",
+    "skills": [
+      "Python",
+      "Qt",
+      "Git",
+      "Linux"
+    ]
   }
 ]
