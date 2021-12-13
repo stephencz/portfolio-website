@@ -12,20 +12,21 @@ const SkillButton = (props) => {
 
   const handleButtonClick = (event) => {
     
-    // Toggle buttons between active and not active
     if(props.browserData.activeButtons.includes(props.text)) {
       props.setBrowserData({
-        ...props.browserData, 
-        activeButtons: props.browserData.activeButtons.filter((elem, index) => elem != props.text),
+        ...props.browserData,
+        activeButtons: [],
         searchData: ""
       });
+
     } else {
       props.setBrowserData({
         ...props.browserData,
-        activeButtons: [...props.browserData.activeButtons, props.text],
+        activeButtons: [props.text],
         searchData: ""
       })
     }
+    
   }
   
   return (

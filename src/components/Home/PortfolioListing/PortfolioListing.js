@@ -3,6 +3,8 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { Container, Row, Col } from 'react-bootstrap';
 
+import { Link } from 'gatsby';
+
 import './PortfolioListing.scss';
 
 const PortfolioListing = (props) => {
@@ -91,7 +93,7 @@ const PortfolioListing = (props) => {
               <Col lg={{ span: 3, offset: 1 }}>
               </Col>
               <Col lg={7}>
-                <div className="project-header">{ props.project.name }</div>
+                <div className="project-header"><Link to={props.project.url}>{ props.project.name }</Link></div>
                 <div className="project-description">{ props.project.description }</div>
                 { generateListingSkillsList() }
               </Col> 

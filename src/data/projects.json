@@ -38,7 +38,8 @@
       "DigitalOcean",
       "Nginx",
       "MySQL",
-      "Git"
+      "Git",
+      "Visual Studio Code"
     ]
   },
   {
@@ -55,7 +56,8 @@
       "Jekyll",
       "Ruby",
       "Linux",
-      "Git"
+      "Git",
+      "Visual Studio Code"
     ]
   },
   {
@@ -74,7 +76,8 @@
       "Git",
       "AWS",
       "DigitalOcean",
-      "Nginx"
+      "Nginx",
+      "Visual Studio Code"
     ]
   },
   {
@@ -92,7 +95,8 @@
       "Gatsby",
       "Linux",
       "Git",
-      "Bootstrap"
+      "Bootstrap",
+      "Visual Studio Code"
     ]
   },
   {
@@ -106,7 +110,8 @@
       "Gradle",
       "LibGDX",
       "Linux",
-      "Git"
+      "Git",
+      "Eclipse"
     ]
   },
   {
@@ -121,7 +126,8 @@
       "Javascript",
       "React",
       "Linux",
-      "Git"
+      "Git",
+      "Visual Studio Code"
     ]
   },
   {
@@ -134,7 +140,8 @@
       "Python",
       "Qt",
       "Git",
-      "Linux"
+      "Linux",
+      "Visual Studio Code"
     ]
   }
 ]
