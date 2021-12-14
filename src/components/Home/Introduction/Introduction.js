@@ -1,6 +1,9 @@
 import React from 'react';
+
 import { useStaticQuery, graphql } from 'gatsby';
 import { Container, Row, Col, Image } from 'react-bootstrap';
+
+import InteractiveKeyboard from '../InteractiveKeyboard/InteractiveKeyboard';
 
 import AuthorImage from '../../../assets/images/author.png';
 import './Introduction.scss';
@@ -43,8 +46,8 @@ const HomeIntroduction = (props) => {
               </p>
             </div>
           </Col>
-          <Col lg={4}>
-            <Image className="author-image" src={AuthorImage} alt="A picture of Stephen Czekalski."/>
+          <Col lg={5}>
+            <InteractiveKeyboard />
           </Col>
         </Row>
       </Container>

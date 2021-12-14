@@ -1,4 +1,6 @@
-$image-border-color: #e9e9e9;
+$card-background-color: #232323;
+$card-inactive-color: #efefef;
+$card-active-color: #f00;
 
 .portfolio-listing-wrapper
 {
@@ -6,58 +8,57 @@ $image-border-color: #e9e9e9;
   margin-bottom: $unit-two;
 }
 
-.portfolio-listing-wrapper img.portfolio-image
+.portfolio-listing-wrapper .project-wrapper
 {
   border-radius: 20px;
-  border: 1px solid $image-border-color;
+  padding: 30px 30px 0px 30px;
 
-  width: 100%;
-  height: 300px;
+  color: $card-inactive-color;
+  background: $card-background-color;
+  overflow: hidden;
+}
 
-  -o-object-fit: cover;
+.portfolio-listing-wrapper a
+{
+  color: $card-inactive-color;
+  text-decoration: none;
+}
+
+
+.portfolio-listing-wrapper .project-wrapper .project-information
+{
+  margin-bottom: $unit-two;
+}
+
+.portfolio-listing-wrapper .project-wrapper .project-name
+{
+  text-align: left;
+}
+
+.portfolio-listing-wrapper .project-wrapper .project-description
+{
+  text-align: right;
+}
+
+.portfolio-listing-wrapper .project-wrapper .project-image img
+{
+  display: block;
+
+  height: 200px;
+  width: 75%;
+  
+  margin-left: auto;
+  margin-right: auto;
+
   object-fit: cover;
-
-  -o-object-position: 0px 0px;
   object-position: 0px 0px;
 
-  margin-bottom: $unit-four;
+  border-radius: 10px;
+  
+  translate: 0px 20px;
 }
 
-.portfolio-listing-wrapper .project-header
+.portfolio-listing-wrapper .project-wrapper .project-image img
 {
-  font-weight: 700;
-  font-size: $unit-one;
-  margin-bottom: $unit-one;
-}
-
-.portfolio-listing-wrapper .project-description
-{
-  font-weight: 300;
-  font-size: $unit-one;
-  line-height: $unit-one-half;
-  margin-bottom: $unit-one;
-}
-
-.portfolio-listing-wrapper .skills .skills-header
-{
-  display: inline-block;
-  font-weight: 700;
-  list-style: none;
-  padding-right: 5px;
-}
-
-.portfolio-listing-wrapper .skills ul
-{
-  display: inline-block;
-  padding-left: 0px;
-}
-
-.portfolio-listing-wrapper .skills ul li
-{
-  display: inline-block;
-}
-
-.portfolio-listing-wrapper .skills ul li::after
-{
-  content: "\00a0";
+  transition: 0px 10px;
 }

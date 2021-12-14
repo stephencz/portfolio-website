@@ -1,0 +1,76 @@
+$keyboard-body-color: #232323;
+$key-inactive-color: #838383;
+$key-active-color: #efefef;
+
+.interactive-keyboard
+{
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  border: 5px solid $keyboard-body-color;
+  background-color: $keyboard-body-color;
+  box-shadow: 5px 5px 0px 5px #2f2f2f;
+
+  padding: 5px;
+  scale: (0.75);
+}
+
+.interactive-keyboard .key-row
+{
+  padding-right: 3px;
+  padding-left: 3px;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.interactive-keyboard .key-row .standard-key,
+.interactive-keyboard .key-row .big-key,
+.interactive-keyboard .key-row .space-key,
+.interactive-keyboard .key-row .empty-key
+{
+  display: inline-block;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.interactive-keyboard .key-row .standard-key,
+.interactive-keyboard .key-row .big-key,
+.interactive-keyboard .key-row .space-key
+{
+  border-radius: 5px;
+  background-color: $key-inactive-color;
+
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition:    all 0.1s ease-out;
+  -o-transition:      all 0.1s ease-out;
+  -ms-transition:     all 0.1s ease-out;
+  transition:         all 0.1s ease-out;
+}
+
+.interactive-keyboard .key-row .standard-key,
+.interactive-keyboard .key-row .empty-key
+{
+  width: 20px;
+  height: 20px;
+}
+
+.interactive-keyboard .key-row .big-key
+{
+  width: 40px;
+  height: 20px;
+}
+
+
+.interactive-keyboard .key-row .space-key
+{
+  width: 180px;
+  height: 20px;
+}
+
+.interactive-keyboard .key-row .standard-key:hover,
+.interactive-keyboard .key-row .big-key:hover,
+.interactive-keyboard .key-row .space-key:hover
+{
+  background-color: $key-active-color;
+}

@@ -60,44 +60,59 @@ const PortfolioListing = (props) => {
     }
   }
 
-  const generateListingSkillsList = () => {
+  // const generateListingSkillsList = () => {
     
-    if(props.project.skills.length <= 0) {
-      return <div className="skills"></div>;
-    } 
+  //   if(props.project.skills.length <= 0) {
+  //     return <div className="skills"></div>;
+  //   } 
 
-    let elements = props.project.skills.sort().map((element, index) => {
-      return <li key={index}> { element } </li>;
-    })
+  //   let elements = props.project.skills.sort().map((element, index) => {
+  //     return <li key={index}> { element } </li>;
+  //   })
 
-    return (
-      <div className="skills">
-        <span className="skills-header">Tags:</span> 
-        <ul> 
-          { elements } 
-        </ul>
-      </div>
-    );
-  }
+  //   return (
+  //     <div className="skills">
+  //       <span className="skills-header">Tags:</span> 
+  //       <ul> 
+  //         { elements } 
+  //       </ul>
+  //     </div>
+  //   );
+  // }
 
+  /**
+   * Generates a portfolio listing.
+   * @returns 
+   */
   const generateListing = () => {
     let visibility = getVisibility(props.project);
     if(visibility) {
       return (
-        <div className="portfolio-listing-wrapper">
-          <Container>
-            <Row>
-              <Col lg={{ span: 4, offset: 1 }}>
-                <Image className="portfolio-image" style={ {maxHeight: props.project.image_max_height } } src={ props.project.image } />
-              </Col>
-              <Col lg={{ span: 5, offset: 1 }}>
-                <div className="project-header"><Link to={props.project.url}>{ props.project.name }</Link></div>
-                <div className="project-description">{ props.project.description }</div>
-                { generateListingSkillsList() }
-              </Col> 
-            </Row>
-          </Container>
-        </div>
+          <div className="portfolio-listing-wrapper">
+            <Container>
+              <Row>
+                <Col className="mx-auto" lg={8}>
+                <a href={ props.project.url }>
+                  <div className="project-wrapper">
+                    <div className="project-information">
+                      <Row>
+                        <Col sm={6}>
+                          <div className="project-name">{ props.project.name }</div>
+                        </Col>
+                        <Col sm={6}>
+                          <div className="project-description">{ props.project.description }</div>
+                        </Col>
+                      </Row>
+                    </div>
+                    <div className="project-image">
+                      <img src={ props.project.image } />
+                    </div>
+                  </div>
+                </a>
+                </Col>
+              </Row>
+            </Container>
+          </div>
         );
     } else {
       return <div className="portfolio-list-wrapper hidden"></div>
