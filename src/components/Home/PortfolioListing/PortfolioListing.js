@@ -1,8 +1,5 @@
 import React from 'react';
-
-import { useStaticQuery, graphql } from 'gatsby';
-import { Container, Row, Col } from 'react-bootstrap';
-
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import { Link } from 'gatsby';
 
 import './PortfolioListing.scss';
@@ -90,9 +87,10 @@ const PortfolioListing = (props) => {
         <div className="portfolio-listing-wrapper">
           <Container>
             <Row>
-              <Col lg={{ span: 3, offset: 1 }}>
+              <Col lg={{ span: 4, offset: 1 }}>
+                <Image className="portfolio-image" style={ {maxHeight: props.project.image_max_height } } src={ props.project.image } />
               </Col>
-              <Col lg={7}>
+              <Col lg={{ span: 5, offset: 1 }}>
                 <div className="project-header"><Link to={props.project.url}>{ props.project.name }</Link></div>
                 <div className="project-description">{ props.project.description }</div>
                 { generateListingSkillsList() }

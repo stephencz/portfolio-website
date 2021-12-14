@@ -4,6 +4,7 @@ module.exports = {
     title: "Portfolio Website",
   },
   plugins: [
+    `gatsby-plugin-image`,
     `gatsby-transformer-json`,
     {
       resolve: "gatsby-plugin-sass",

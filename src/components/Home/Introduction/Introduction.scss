@@ -1,5 +1,5 @@
 $primary-color: #898989;
-$secondary-color: #d8d8d8;
+$secondary-color: #7da3cc;
 $ternary-color: #232323;
 $name-color: #000;
 $title-color: #000;
@@ -9,8 +9,8 @@ $title-color: #000;
 {
   border-bottom: 5px solid $secondary-color;
   background-color: #fff;
-  margin-top: $unit-four;
-  padding-bottom: $unit-two;
+  padding-top: $unit-four;
+  padding-bottom: $unit-four;
   min-height: 70vh;
 }
 
@@ -50,12 +50,34 @@ $title-color: #000;
   display: block;
 
   border-radius: 20px;
-  border: 1px solid $secondary-color;
+  border: 1px solid #efefef;
   
   max-width: 300px;
 
   margin-left: auto;
   margin-right: auto;
+}
+
+.accent
+{
+  clip-path: polygon(0 100%, 100% 0, 100% 100%);
+  width: 500px;
+  height: 500px;
+
+  background-color: #232323;
+
+  position: absolute;
+  left: calc(100vw - 512px);
+  bottom: 250px;
+}
+
+@media (max-width: 1199.98px)
+{
+  .introduction-wrapper .author-image
+  {
+    max-width: 200px;
+    margin-top: 25%;
+  }
 }
 
 @media (max-width: 991.98px)

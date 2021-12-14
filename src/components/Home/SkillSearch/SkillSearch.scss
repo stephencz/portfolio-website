@@ -1,16 +1,19 @@
-$primary-color: #232323;
-$secondary-color: #efefef;
+$primary-color: #497db5;
+$secondary-color: #232323;
+$white-color: #efefef;
+$black-color: #232323;
 
-$button-inactive-color: #828282;
-$button-hover-color: #efefef;
+$button-inactive-color: #efefef;
+$button-hover-color: #232323;
 
 .skill-search-wrapper
 {
-  border-bottom: 5px solid #d8d8d8;
+  border-bottom: 5px solid #7da3cc;
   background-color: $primary-color;
   color: $secondary-color;
   padding-top: $unit-two;
   padding-bottom: $unit-one;
+  margin-bottom: $unit-four;
 }
 
 .skill-search-wrapper .skill-section
@@ -22,6 +25,7 @@ $button-hover-color: #efefef;
 {
   font-weight: 700;
   margin-bottom: $unit-half;
+  color: $white-color;
 }
 
 
@@ -31,7 +35,7 @@ $button-hover-color: #efefef;
 
   border-radius: 10px;
 
-  color: $primary-color;
+  color: $black-color;
   background-color: $button-inactive-color;
 
   padding: 5px 10px 5px 10px;
@@ -49,6 +53,7 @@ $button-hover-color: #efefef;
 .skill-search-wrapper .section-buttons .skill-button.active
 {
   background-color: $button-hover-color;
+  color: $white-color;
 }
 
 .skill-search-wrapper input.search-bar
@@ -56,7 +61,7 @@ $button-hover-color: #efefef;
   border-radius: 10px;
   border: none;
 
-  color: $primary-color;
+  color: $black-color;
   background-color: $button-inactive-color;
   
   padding: 5px 10px 5px 10px;
@@ -74,7 +79,8 @@ $button-hover-color: #efefef;
 .skill-search-wrapper input[type=text].search-bar:hover,
 .skill-search-wrapper input[type=text].search-bar:focus
 {
-  background-color: $secondary-color;
+  color: $black-color;
+  background-color: $white-color;
   box-shadow: 0 1px 1px rgb(165, 165, 165) inset, 0 0 1px rgb(161, 161, 161);
   outline: 0 none;
 
