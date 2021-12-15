@@ -3,6 +3,7 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 
+import ScrollingMonitor from '../ScrollingMonitor/ScrollingMonitor';
 import InteractiveKeyboard from '../InteractiveKeyboard/InteractiveKeyboard';
 
 import AuthorImage from '../../../assets/images/author.png';
@@ -47,6 +48,7 @@ const HomeIntroduction = (props) => {
             </div>
           </Col>
           <Col lg={5}>
+            <ScrollingMonitor />
             <InteractiveKeyboard />
           </Col>
         </Row>

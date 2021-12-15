@@ -1,0 +1,22 @@
+.scrolling-monitor-wrapper
+{
+  border-top: 45px solid #2f2f2f;
+  background-color: #232323;
+
+  width: 200px;
+  height: 185px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: $unit-one;
+}
+
+.scrolling-monitor-wrapper .screen-one
+{
+  background-color: #727272;
+  width: 180px;
+  height: 120px;
+
+  padding: 10px;
+}

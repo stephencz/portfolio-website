@@ -36,7 +36,8 @@ const PortfolioBrowser = (props) => {
             skills
             project_id
             description
-            image
+            image,
+            color
           }
         }
       }

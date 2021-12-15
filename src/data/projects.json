@@ -5,6 +5,7 @@
     "description": "Web App",
     "url": "/portfolio/task-manager",
     "image": "/images/task_manager.png",
+    "color": "#365da8",
     "skills": [
       "HTML",
       "CSS",
@@ -25,6 +26,7 @@
     "name": "Top Fifty Games",
     "description": "Website",
     "url": "/portfolio/top-fifty-games",
+    "color": "#ac3154",
     "skills": [
       "HTML",
       "CSS",
@@ -48,6 +50,7 @@
     "description": "Jekyll Plugin",
     "url": "/portfolio/test-project-1",
     "image": "",
+    "color": "#232323",
     "skills": [
       "HTML",
       "CSS",
@@ -66,6 +69,7 @@
     "description": "Website",
     "url": "/portfolio/Test Project 2",
     "image": "",
+    "color": "#232323",
     "skills": [
       "HTML",
       "CSS",
@@ -86,6 +90,7 @@
     "description": "Website",
     "url": "/portfolio/test-project-3",
     "image": "",
+    "color": "#232323",
     "skills": [
       "HTML",
       "CSS",
@@ -105,6 +110,7 @@
     "description": "Game",
     "url": "/portfolio/top-fifty-games",
     "image": "",
+    "color": "#232323",
     "skills": [
       "Java",
       "Gradle",
@@ -120,6 +126,7 @@
     "description": "Web App",
     "url": "/portfolio/top-fifty-games",
     "image": "",
+    "color": "#232323",
     "skills": [
       "HTML",
       "CSS",
@@ -136,6 +143,7 @@
     "description": "Software",
     "url": "/portfolio/top-fifty-games",
     "image": "",
+    "color": "#232323",
     "skills": [
       "Python",
       "Qt",

@@ -1,6 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
-import { Link } from 'gatsby';
+import { Container, Row, Col } from 'react-bootstrap';
 
 import './PortfolioListing.scss';
 
@@ -60,26 +59,6 @@ const PortfolioListing = (props) => {
     }
   }
 
-  // const generateListingSkillsList = () => {
-    
-  //   if(props.project.skills.length <= 0) {
-  //     return <div className="skills"></div>;
-  //   } 
-
-  //   let elements = props.project.skills.sort().map((element, index) => {
-  //     return <li key={index}> { element } </li>;
-  //   })
-
-  //   return (
-  //     <div className="skills">
-  //       <span className="skills-header">Tags:</span> 
-  //       <ul> 
-  //         { elements } 
-  //       </ul>
-  //     </div>
-  //   );
-  // }
-
   /**
    * Generates a portfolio listing.
    * @returns 
@@ -87,13 +66,17 @@ const PortfolioListing = (props) => {
   const generateListing = () => {
     let visibility = getVisibility(props.project);
     if(visibility) {
+
+      let color = props.project.color;
+      console.log("COLR: " + props.project.color);
+
       return (
           <div className="portfolio-listing-wrapper">
             <Container>
               <Row>
                 <Col className="mx-auto" lg={8}>
                 <a href={ props.project.url }>
-                  <div className="project-wrapper">
+                  <div className="project-wrapper" style={{backgroundColor: color}}>
                     <div className="project-information">
                       <Row>
                         <Col sm={6}>

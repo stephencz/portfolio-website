@@ -11,11 +11,31 @@ $card-active-color: #f00;
 .portfolio-listing-wrapper .project-wrapper
 {
   border-radius: 20px;
-  padding: 30px 30px 0px 30px;
-
   color: $card-inactive-color;
-  background: $card-background-color;
+
+  padding: 30px 30px 0px 30px;
   overflow: hidden;
+
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition:    all 0.1s ease-in-out;
+  -o-transition:      all 0.1s ease-in-out;
+  -ms-transition:     all 0.1s ease-in-out;
+  transition:         all 0.1s ease-in-out;
+}
+
+.portfolio-listing-wrapper .project-wrapper:hover
+{
+  opacity: 0.5;
+}
+
+.portfolio-listing-wrapper .project-wrapper:hover .project-image img
+{
+  transform: translate(0px, 0px);
+
+  -webkit-transform: translate(0px, 0px); /* Safari & Chrome */
+  -moz-transform: translate(0px, 0px); /* Firefox */
+  -ms-transform: translate(0px, 0px); /* Internet Explorer */
+  -o-transform: translate(0px, 0px); 
 }
 
 .portfolio-listing-wrapper a
@@ -43,6 +63,8 @@ $card-active-color: #f00;
 .portfolio-listing-wrapper .project-wrapper .project-image img
 {
   display: block;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 
   height: 200px;
   width: 75%;
@@ -53,12 +75,15 @@ $card-active-color: #f00;
   object-fit: cover;
   object-position: 0px 0px;
 
-  border-radius: 10px;
-  
-  translate: 0px 20px;
-}
+  transform: translate(0px, 0px);
+  -webkit-transform: translate(0px, 20px); /* Safari & Chrome */
+  -moz-transform: translate(0px, 20px); /* Firefox */
+  -ms-transform: translate(0px, 20px); /* Internet Explorer */
+  -o-transform: translate(0px, 20px); 
 
-.portfolio-listing-wrapper .project-wrapper .project-image img
-{
-  transition: 0px 10px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition:    all 0.5s ease-in-out;
+  -o-transition:      all 0.5s ease-in-out;
+  -ms-transition:     all 0.5s ease-in-out;
+  transition:         all 0.5s ease-in-out;
 }
