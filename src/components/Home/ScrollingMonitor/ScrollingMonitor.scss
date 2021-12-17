@@ -1,24 +1,215 @@
 $animation-time: 10s;
 
 $code-background-color: #002B36;
+$code-text-color: #839496;
+$code-variable-color: #268BD2;
+$code-return-type-color: #CB4B16;
+$code-function-return-type-color: #B58900;
+$code-function-name-color: #859900;
+$code-parenthesis-color: #93A1A1;
+
 .scrolling-monitor-wrapper
 {
 
-  -webkit-box-shadow: 0px -45px 0px 0px #353535; 
-  box-shadow: 0px -45px 0px 0px #353535;
+  -webkit-box-shadow: 0px -75px 0px 0px #353535; 
+  box-shadow: 0px -75px 0px 0px #353535;
   
   border: 10px solid #232323;
   background-color: $code-background-color;
 
   width: 250px;
   height: 185px;
-  
+
   margin-left: auto;
   margin-right: auto;
   margin-bottom: $unit-one;
 
-  position: relative;
+  position: relative;  
+  overflow: hidden;
 }
+
+.scrolling-monitor-wrapper .code-line
+{
+  display: block;
+  width: auto;
+  height: auto;
+  min-height: 20px;
+  max-height: 20px;
+}
+.scrolling-monitor-wrapper .indent
+{
+  margin-left: 20px;
+}
+
+.scrolling-monitor-wrapper .parenthesis
+{
+  display: inline-block;
+
+  border-radius: 5px;
+  background-color: $code-parenthesis-color;
+
+  width: 5px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+
+.scrolling-monitor-wrapper .variable-declaration-s
+{
+  display: inline-block;
+
+  border-radius: 20px;
+  background-color: $code-variable-color;
+
+  width: 20px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.scrolling-monitor-wrapper .variable-declaration-m
+{
+  display: inline-block;
+
+  border-radius: 20px;
+  background-color: $code-variable-color;
+
+  width: 40px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.scrolling-monitor-wrapper .variable-declaration-l
+{
+  display: inline-block;
+
+  border-radius: 20px;
+  background-color: $code-variable-color;
+
+  width: 60px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.scrolling-monitor-wrapper .text-s
+{
+  display: inline-block;
+
+  border-radius: 20px;
+  background-color: $code-text-color;
+
+  width: 20px;
+  height: 10px;  
+  margin-right: 5px;
+}
+
+.scrolling-monitor-wrapper .text-m
+{
+  display: inline-block;
+
+  border-radius: 20px;
+  background-color: $code-text-color;
+
+  width: 40px;
+  height: 10px;  
+  margin-right: 5px;
+}
+
+.scrolling-monitor-wrapper .text-l
+{
+  display: inline-block;
+
+  border-radius: 20px;
+  background-color: $code-text-color;
+
+  width: 60px;
+  height: 10px;  
+  margin-right: 5px;
+}
+
+.scrolling-monitor-wrapper .return-type-s
+{
+  display: inline-block;
+
+  border-radius: 20px;
+  background-color: $code-return-type-color;
+
+  width: 20px;
+  height: 10px;  
+  margin-right: 5px;
+}
+
+.scrolling-monitor-wrapper .return-type-m
+{
+  display: inline-block;
+
+  border-radius: 20px;
+  background-color: $code-return-type-color;
+
+  width: 40px;
+  height: 10px;  
+  margin-right: 5px;
+}
+
+.scrolling-monitor-wrapper .function-return-type-s
+{
+  display: inline-block;
+
+  border-radius: 20px;
+  background-color: $code-function-return-type-color;
+
+  width: 20px;
+  height: 10px;  
+  margin-right: 5px;
+}
+
+.scrolling-monitor-wrapper .function-return-type-m
+{
+  display: inline-block;
+
+  border-radius: 20px;
+  background-color: $code-function-return-type-color;
+
+  width: 40px;
+  height: 10px;  
+  margin-right: 5px;
+}
+
+.scrolling-monitor-wrapper .function-name-s
+{
+  display: inline-block;
+
+  border-radius: 20px;
+  background-color: $code-function-name-color;
+
+  width: 40px;
+  height: 10px;  
+  margin-right: 5px;
+}
+
+.scrolling-monitor-wrapper .function-name-m
+{
+  display: inline-block;
+
+  border-radius: 20px;
+  background-color: $code-function-name-color;
+
+  width: 60px;
+  height: 10px;  
+  margin-right: 5px;
+}
+
+.scrolling-monitor-wrapper .function-name-l
+{
+  display: inline-block;
+
+  border-radius: 20px;
+  background-color: $code-function-name-color;
+
+  width: 80px;
+  height: 10px;  
+  margin-right: 5px;
+}
+
 
 
 .scrolling-monitor-wrapper .screen-one,
@@ -31,63 +222,71 @@ $code-background-color: #002B36;
   
   width: 230px;
   height: 120px;
+  max-height: 120px;
   
-  padding: 10px;
+  padding: 0px 10px 0px 10px;
+  top: 240px;
 
   position: absolute;
 }
 
 .scrolling-monitor-wrapper .screen-one
 {
-  background-color: #ff0;
   animation: scrollScreen $animation-time linear infinite 0s;
 }
 
 .scrolling-monitor-wrapper .screen-two
 {
-  background-color: #f00;
   animation: scrollScreen $animation-time linear infinite 2s;
 }
 
 .scrolling-monitor-wrapper .screen-three
 {
-  background-color: #0f0;
   animation: scrollScreen $animation-time linear infinite 4s;
 }
 
 .scrolling-monitor-wrapper .screen-four
 {
-  background-color: #00f;
   animation: scrollScreen $animation-time linear infinite 6s;
 }
 
 .scrolling-monitor-wrapper .screen-five
 {
-  background-color: #0ff;
   animation: scrollScreen $animation-time linear infinite 8s;
 }
 
 @keyframes scrollScreen
 {
   from {
-    top: 480px;
+    bottom: 360px;
   }
   20% {
-    top: 360px;
-  }
-
-  40% {
-    top: 240px;
-  }
-
-  60% {
     top: 120px;
   }
 
-  80% {
+  40% {
     top: 0px;
   }
-  100% {
-    bottom: 120px;
+
+  60% {
+    top: -120px;
   }
+
+  80% {
+    top: -240px;
+  }
+  100% {
+    top: -360px;
+  }
+
 }
+
+@media (bottom: 0px) {
+
+  .scrolling-monitor-wrapper .screen-one
+  {
+    background: $code-background-color;
+  }
+
+}
+

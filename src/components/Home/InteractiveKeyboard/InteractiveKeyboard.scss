@@ -15,9 +15,7 @@ $key-active-color: #efefef;
   padding: 5px;
   padding-bottom: 10px;
 
-  scale: 0.5;
   position: relative;
-  transform-origin: 0 0;
 
   margin-left: auto;
   margin-right: auto;
@@ -54,7 +52,7 @@ $key-active-color: #efefef;
 .interactive-keyboard .key-row .big-key,
 .interactive-keyboard .key-row .space-key
 {
-  border-radius: 5px;
+  border-radius: 2px;
   background-color: $key-inactive-color;
 
   -webkit-transition: all 0.1s ease-out;
@@ -67,21 +65,21 @@ $key-active-color: #efefef;
 .interactive-keyboard .key-row .standard-key,
 .interactive-keyboard .key-row .empty-key
 {
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
 }
 
 .interactive-keyboard .key-row .big-key
 {
-  width: 40px;
-  height: 20px;
+  width: 20px;
+  height: 10px;
 }
 
 
 .interactive-keyboard .key-row .space-key
 {
-  width: 180px;
-  height: 20px;
+  width: 90px;
+  height: 10px;
 }
 
 .interactive-keyboard .key-row .standard-key:hover,
@@ -89,4 +87,9 @@ $key-active-color: #efefef;
 .interactive-keyboard .key-row .space-key:hover
 {
   background-color: $key-active-color;
+}
+
+.interactive-keyboard .lit
+{
+  background-color: $key-active-color !important;
 }

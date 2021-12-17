@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import './InteractiveKeyboard.scss';
 
@@ -8,8 +8,33 @@ import './InteractiveKeyboard.scss';
  * @returns 
  */
 const StandardKey = (props) => {
+
+
+  const [isLit , setIsLit] = useState(false);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      console.log("isLit? " + isLit);
+      if(isLit === true) {
+        setIsLit(false);
+      } else {
+        setIsLit(true);
+      }
+    }, Math.floor(Math.random() * 2000));
+
+    return () => clearInterval(interval);
+  }, [isLit, setIsLit]);
+
+  const getClassName = () => {
+    if(isLit) {
+      return "standard-key lit";
+    } else {
+      return "standard-key";
+    }
+  }
+
   return (
-    <div className="standard-key"></div>
+    <div className={ getClassName() }></div>
   );
 }
 
@@ -19,8 +44,33 @@ const StandardKey = (props) => {
  * @returns 
  */
 const BigKey = (props) => {
+
+  const [isLit , setIsLit] = useState(false);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      console.log("isLit? " + isLit);
+      if(isLit === true) {
+        setIsLit(false);
+      } else {
+        setIsLit(true);
+      }
+    }, Math.floor(Math.random() * 4000));
+
+    return () => clearInterval(interval);
+  }, [isLit, setIsLit]);
+
+  const getClassName = () => {
+    if(isLit) {
+      return "big-key lit";
+    } else {
+      return "big-key";
+    }
+  }
+
+
   return (
-    <div className="big-key"></div>
+    <div className={ getClassName() }></div>
   );
 }
 
@@ -30,8 +80,33 @@ const BigKey = (props) => {
  * @returns 
  */
 const SpaceKey = (props) => {
+
+  const [isLit , setIsLit] = useState(false);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      console.log("isLit? " + isLit);
+      if(isLit === true) {
+        setIsLit(false);
+      } else {
+        setIsLit(true);
+      }
+    }, Math.floor(Math.random() * 750));
+
+    return () => clearInterval(interval);
+  }, [isLit, setIsLit]);
+
+  const getClassName = () => {
+    if(isLit) {
+      return "space-key lit";
+    } else {
+      return "space-key";
+    }
+  }
+
+
   return (
-    <div className="space-key"></div>
+    <div className={ getClassName() }></div>
   );
 }
 
@@ -129,7 +204,7 @@ const Keyboard = (props) => {
         <StandardKey />
         <StandardKey />
         <StandardKey />
-        <StandardKey />
+        <BigKey/>
         <EmptyKey/>
         <StandardKey />
         <StandardKey />
