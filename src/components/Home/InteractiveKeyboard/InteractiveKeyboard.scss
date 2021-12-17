@@ -1,26 +1,23 @@
-$keyboard-body-color: #232323;
+$keyboard-body-color: hsl(0, 0%, 14%);
 $key-inactive-color: #838383;
-$key-active-color: #efefef;
+$key-active-color: #e9e9e9;
 
 .interactive-keyboard
 {
-  display: inline-flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  display: block;
+  position: relative;
 
   border: 5px solid $keyboard-body-color;
-  border-bottom: 15px solid #353535;
+  border-bottom: 12px solid #353535;
   background-color: $keyboard-body-color;
+
+  width: 282px;
 
   padding: 5px;
   padding-bottom: 10px;
 
-  position: relative;
-
   margin-left: auto;
   margin-right: auto;
-
-  box-sizing: border-box;
 }
 
 .interactive-keyboard .key-row
@@ -46,6 +43,13 @@ $key-active-color: #efefef;
   margin-right: 2px;
   margin-top: 2px;
   margin-bottom: 2px;
+}
+
+.interactive-keyboard .key-row .standard-key,
+.interactive-keyboard .key-row .big-key,
+.interactive-keyboard .key-row .space-key
+{
+  border-bottom: 2px solid rgb(87, 87, 87);
 }
 
 .interactive-keyboard .key-row .standard-key,
@@ -92,4 +96,5 @@ $key-active-color: #efefef;
 .interactive-keyboard .lit
 {
   background-color: $key-active-color !important;
+  border-bottom: 2px solid rgb(167, 163, 141) !important;
 }

@@ -10,10 +10,13 @@ $code-parenthesis-color: #93A1A1;
 
 .scrolling-monitor-wrapper
 {
+  position: relative;  
+  overflow: hidden;
 
   -webkit-box-shadow: 0px -75px 0px 0px #353535; 
   box-shadow: 0px -75px 0px 0px #353535;
-  
+
+
   border: 10px solid #232323;
   background-color: $code-background-color;
 
@@ -23,9 +26,6 @@ $code-parenthesis-color: #93A1A1;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: $unit-one;
-
-  position: relative;  
-  overflow: hidden;
 }
 
 .scrolling-monitor-wrapper .code-line
@@ -51,6 +51,8 @@ $code-parenthesis-color: #93A1A1;
   width: 5px;
   height: 10px;
   margin-right: 5px;
+
+  border-top: 2px solid rgb(182, 182, 182);
 }
 
 
@@ -64,6 +66,8 @@ $code-parenthesis-color: #93A1A1;
   width: 20px;
   height: 10px;
   margin-right: 5px;
+
+  border-top: 2px solid  #40a6f0;
 }
 
 .scrolling-monitor-wrapper .variable-declaration-m
@@ -76,6 +80,8 @@ $code-parenthesis-color: #93A1A1;
   width: 40px;
   height: 10px;
   margin-right: 5px;
+
+  border-top: 2px solid  #40a6f0;
 }
 
 .scrolling-monitor-wrapper .variable-declaration-l
@@ -88,6 +94,8 @@ $code-parenthesis-color: #93A1A1;
   width: 60px;
   height: 10px;
   margin-right: 5px;
+
+  border-top: 2px solid  #40a6f0;
 }
 
 .scrolling-monitor-wrapper .text-s
@@ -100,6 +108,9 @@ $code-parenthesis-color: #93A1A1;
   width: 20px;
   height: 10px;  
   margin-right: 5px;
+
+  border-top: 2px solid rgb(182, 182, 182);
+
 }
 
 .scrolling-monitor-wrapper .text-m
@@ -112,6 +123,9 @@ $code-parenthesis-color: #93A1A1;
   width: 40px;
   height: 10px;  
   margin-right: 5px;
+
+  border-top: 2px solid rgb(182, 182, 182);
+
 }
 
 .scrolling-monitor-wrapper .text-l
@@ -124,6 +138,8 @@ $code-parenthesis-color: #93A1A1;
   width: 60px;
   height: 10px;  
   margin-right: 5px;
+
+  border-top: 2px solid rgb(182, 182, 182);
 }
 
 .scrolling-monitor-wrapper .return-type-s
@@ -136,6 +152,8 @@ $code-parenthesis-color: #93A1A1;
   width: 20px;
   height: 10px;  
   margin-right: 5px;
+
+  border-top: 2px solid #d65e2b;
 }
 
 .scrolling-monitor-wrapper .return-type-m
@@ -148,6 +166,8 @@ $code-parenthesis-color: #93A1A1;
   width: 40px;
   height: 10px;  
   margin-right: 5px;
+
+  border-top: 2px solid #d65e2b;
 }
 
 .scrolling-monitor-wrapper .function-return-type-s
@@ -160,6 +180,8 @@ $code-parenthesis-color: #93A1A1;
   width: 20px;
   height: 10px;  
   margin-right: 5px;
+
+  border-top: 2px solid #daaa1b;
 }
 
 .scrolling-monitor-wrapper .function-return-type-m
@@ -172,6 +194,8 @@ $code-parenthesis-color: #93A1A1;
   width: 40px;
   height: 10px;  
   margin-right: 5px;
+
+  border-top: 2px solid #daaa1b;
 }
 
 .scrolling-monitor-wrapper .function-name-s
@@ -184,6 +208,8 @@ $code-parenthesis-color: #93A1A1;
   width: 40px;
   height: 10px;  
   margin-right: 5px;
+
+  border-top: 2px solid #9fb417;
 }
 
 .scrolling-monitor-wrapper .function-name-m
@@ -196,6 +222,8 @@ $code-parenthesis-color: #93A1A1;
   width: 60px;
   height: 10px;  
   margin-right: 5px;
+
+  border-top: 2px solid #9fb417;
 }
 
 .scrolling-monitor-wrapper .function-name-l
@@ -208,6 +236,8 @@ $code-parenthesis-color: #93A1A1;
   width: 80px;
   height: 10px;  
   margin-right: 5px;
+
+  border-top: 2px solid #9fb417;
 }
 
 
