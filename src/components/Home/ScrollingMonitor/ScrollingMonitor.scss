@@ -26,7 +26,6 @@ $code-parenthesis-color: #93A1A1;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: $unit-one;
-  margin-top: $unit-four;
 }
 
 .scrolling-monitor-wrapper .code-line
@@ -312,12 +311,11 @@ $code-parenthesis-color: #93A1A1;
 
 }
 
-@media (bottom: 0px) {
+@media (max-width: 1199.98px) {
 
-  .scrolling-monitor-wrapper .screen-one
+  .scrolling-monitor-wrapper 
   {
-    background: $code-background-color;
+    margin-top: $unit-four;
   }
 
 }
-
