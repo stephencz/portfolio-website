@@ -1,22 +1,93 @@
+$animation-time: 10s;
+
+$code-background-color: #002B36;
 .scrolling-monitor-wrapper
 {
-  border-top: 45px solid #2f2f2f;
-  background-color: #232323;
 
-  width: 200px;
+  -webkit-box-shadow: 0px -45px 0px 0px #353535; 
+  box-shadow: 0px -45px 0px 0px #353535;
+  
+  border: 10px solid #232323;
+  background-color: $code-background-color;
+
+  width: 250px;
   height: 185px;
-  padding-top: 10px;
-  padding-left: 10px;
+  
   margin-left: auto;
   margin-right: auto;
   margin-bottom: $unit-one;
+
+  position: relative;
+}
+
+
+.scrolling-monitor-wrapper .screen-one,
+.scrolling-monitor-wrapper .screen-two,
+.scrolling-monitor-wrapper .screen-three,
+.scrolling-monitor-wrapper .screen-four,
+.scrolling-monitor-wrapper .screen-five
+{
+  background-color: $code-background-color;
+  
+  width: 230px;
+  height: 120px;
+  
+  padding: 10px;
+
+  position: absolute;
 }
 
 .scrolling-monitor-wrapper .screen-one
 {
-  background-color: #727272;
-  width: 180px;
-  height: 120px;
+  background-color: #ff0;
+  animation: scrollScreen $animation-time linear infinite 0s;
+}
 
-  padding: 10px;
+.scrolling-monitor-wrapper .screen-two
+{
+  background-color: #f00;
+  animation: scrollScreen $animation-time linear infinite 2s;
+}
+
+.scrolling-monitor-wrapper .screen-three
+{
+  background-color: #0f0;
+  animation: scrollScreen $animation-time linear infinite 4s;
+}
+
+.scrolling-monitor-wrapper .screen-four
+{
+  background-color: #00f;
+  animation: scrollScreen $animation-time linear infinite 6s;
+}
+
+.scrolling-monitor-wrapper .screen-five
+{
+  background-color: #0ff;
+  animation: scrollScreen $animation-time linear infinite 8s;
+}
+
+@keyframes scrollScreen
+{
+  from {
+    top: 480px;
+  }
+  20% {
+    top: 360px;
+  }
+
+  40% {
+    top: 240px;
+  }
+
+  60% {
+    top: 120px;
+  }
+
+  80% {
+    top: 0px;
+  }
+  100% {
+    bottom: 120px;
+  }
 }

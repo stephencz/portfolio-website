@@ -1,0 +1,36 @@
+.navigation-wrapper
+{
+  background-color: #fffcfa;
+  padding-top: $unit-two;
+  padding-bottom: $unit-two;
+}
+
+.navigation-wrapper ul
+{
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+.navigation-wrapper ul li
+{
+  display: inline-block;
+  font-weight: 300;
+  font-size: $unit-one;
+  padding-right: $unit-one;
+}
+
+.navigation-wrapper ul li a:link,
+.navigation-wrapper ul li a:active,
+.navigation-wrapper ul li a:visited
+{
+  color: #818181;
+  text-decoration: none;
+}
+
+
+
+.navigation-wrapper ul li a:hover
+{
+  color: #000;
+}

@@ -9,7 +9,7 @@ $key-active-color: #efefef;
   flex-wrap: nowrap;
 
   border: 5px solid $keyboard-body-color;
-  border-bottom: 15px solid #2f2f2f;
+  border-bottom: 15px solid #353535;
   background-color: $keyboard-body-color;
 
   padding: 5px;
@@ -21,6 +21,8 @@ $key-active-color: #efefef;
 
   margin-left: auto;
   margin-right: auto;
+
+  box-sizing: border-box;
 }
 
 .interactive-keyboard .key-row
