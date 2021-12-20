@@ -4,7 +4,7 @@
     "name": "Task Manager",
     "description": "Web App",
     "url": "/portfolio/task-manager",
-    "image": "/images/task_manager.png",
+    "image": "/images/task_manager.webp",
     "color": "#366995",
     "skills": [
       "HTML",
@@ -26,7 +26,7 @@
     "name": "Top Fifty Games",
     "description": "Website",
     "url": "/portfolio/top-fifty-games",
-    "image": "/images/top_fifty_games.png",
+    "image": "/images/top_fifty_games.webp",
     "color": "#bd6033",
     "skills": [
       "HTML",
@@ -49,7 +49,7 @@
     "name": "Maze Game",
     "description": "Game",
     "url": "/portfolio/maze-game",
-    "image": "/images/maze_game.png",
+    "image": "/images/maze_game.webp",
     "color": "#bd3333",
     "skills": [
       "Java",
@@ -68,7 +68,7 @@
     "name": "Jekyll Chess",
     "description": "Jekyll Plugin",
     "url": "/portfolio/jekyll-chess",
-    "image": "/images/jekyll_chess.png",
+    "image": "/images/jekyll_chess.webp",
     "color": "#B58900",
     "skills": [
       "HTML",

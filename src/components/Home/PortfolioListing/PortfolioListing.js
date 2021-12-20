@@ -88,7 +88,7 @@ const PortfolioListing = (props) => {
                       </Row>
                     </div>
                     <div className="project-image">
-                      <img src={ props.project.image } />
+                      <img src={ props.project.image } alt={"An image of the " + props.project.name + " portfolio project."} />
                     </div>
                   </div>
                 </a>

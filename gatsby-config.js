@@ -6,6 +6,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-transformer-json`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: "gatsby-plugin-sass",
       options: {

@@ -12,10 +12,10 @@ const Navigation = (props) => {
         <Row>
           <Col className="mx-auto" lg={10}>
             <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">About</a></li>
-              <li><a href="">Work</a></li>
-              <li><a href="">Resume</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/portfolio">Work</a></li>
+              <li><a href="/resume">Resume</a></li>
             </ul>
           </Col>
         </Row>
