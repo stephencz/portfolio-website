@@ -5,7 +5,7 @@
     "description": "Web App",
     "url": "/portfolio/task-manager",
     "image": "/images/task_manager.png",
-    "color": "#365da8",
+    "color": "#366995",
     "skills": [
       "HTML",
       "CSS",
@@ -26,7 +26,8 @@
     "name": "Top Fifty Games",
     "description": "Website",
     "url": "/portfolio/top-fifty-games",
-    "color": "#ac3154",
+    "image": "/images/top_fifty_games.png",
+    "color": "#bd6033",
     "skills": [
       "HTML",
       "CSS",
@@ -41,16 +42,34 @@
       "MySQL",
       "Git",
       "Visual Studio Code"
-    ],
-    "image": "/images/top_fifty_games_screenshot.png"
+    ]
+  },
+  {
+    "id": "maze-game",
+    "name": "Maze Game",
+    "description": "Game",
+    "url": "/portfolio/maze-game",
+    "image": "/images/maze_game.png",
+    "color": "#bd3333",
+    "skills": [
+      "Java",
+      "Git",
+      "Windows",
+      "Linux",
+      "Gradle",
+      "Ruby",
+      "LibGDX",
+      "Eclipse",
+      "Photoshop"
+    ]
   },
   {
     "id": "jekyll-chess",
     "name": "Jekyll Chess",
     "description": "Jekyll Plugin",
-    "url": "/portfolio/test-project-1",
-    "image": "",
-    "color": "#232323",
+    "url": "/portfolio/jekyll-chess",
+    "image": "/images/jekyll_chess.png",
+    "color": "#B58900",
     "skills": [
       "HTML",
       "CSS",
@@ -60,95 +79,6 @@
       "Ruby",
       "Linux",
       "Git",
-      "Visual Studio Code"
-    ]
-  },
-  {
-    "id": "stephencz-com",
-    "name": "Personal Website",
-    "description": "Website",
-    "url": "/portfolio/Test Project 2",
-    "image": "",
-    "color": "#232323",
-    "skills": [
-      "HTML",
-      "CSS",
-      "Sass",
-      "Jekyll",
-      "Ruby",
-      "Linux",
-      "Git",
-      "AWS",
-      "DigitalOcean",
-      "Nginx",
-      "Visual Studio Code"
-    ]
-  },
-  {
-    "id": "portfolio-website",
-    "name": "Portfolio Website",
-    "description": "Website",
-    "url": "/portfolio/test-project-3",
-    "image": "",
-    "color": "#232323",
-    "skills": [
-      "HTML",
-      "CSS",
-      "Sass",
-      "Javascript",
-      "React",
-      "Gatsby",
-      "Linux",
-      "Git",
-      "Bootstrap",
-      "Visual Studio Code"
-    ]
-  },
-  {
-    "id": "maze-game",
-    "name": "Maze Game",
-    "description": "Game",
-    "url": "/portfolio/top-fifty-games",
-    "image": "",
-    "color": "#232323",
-    "skills": [
-      "Java",
-      "Gradle",
-      "LibGDX",
-      "Linux",
-      "Git",
-      "Eclipse"
-    ]
-  },
-  {
-    "id": "poly-roller",
-    "name": "Poly Roller",
-    "description": "Web App",
-    "url": "/portfolio/top-fifty-games",
-    "image": "",
-    "color": "#232323",
-    "skills": [
-      "HTML",
-      "CSS",
-      "Javascript",
-      "React",
-      "Linux",
-      "Git",
-      "Visual Studio Code"
-    ]
-  },
-  {
-    "id": "py-pomodoro",
-    "name": "Py Pomodoro",
-    "description": "Software",
-    "url": "/portfolio/top-fifty-games",
-    "image": "",
-    "color": "#232323",
-    "skills": [
-      "Python",
-      "Qt",
-      "Git",
-      "Linux",
       "Visual Studio Code"
     ]
   }

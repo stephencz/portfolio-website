@@ -79,10 +79,10 @@ const PortfolioListing = (props) => {
                   <div className="project-wrapper" style={{backgroundColor: color}}>
                     <div className="project-information">
                       <Row>
-                        <Col sm={6}>
+                        <Col xs={6}>
                           <div className="project-name">{ props.project.name }</div>
                         </Col>
-                        <Col sm={6}>
+                        <Col xs={6}>
                           <div className="project-description">{ props.project.description }</div>
                         </Col>
                       </Row>

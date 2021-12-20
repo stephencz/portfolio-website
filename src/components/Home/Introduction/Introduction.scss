@@ -9,16 +9,15 @@ $title-color: #000;
 {
   border-bottom: 5px solid $secondary-color;
   background-color: #fff;
-  padding-top: $unit-four;
-  padding-bottom: $unit-four;
-  min-height: 70vh;
+  padding-top: $unit-three;
+  min-height: 90vh;
 }
 
 .introduction-wrapper h1.fullname
 {
   color: $name-color;
 
-  font-weight: 300;
+  font-weight: 400;
   font-size: $unit-two;
   line-height: $unit-three;
 

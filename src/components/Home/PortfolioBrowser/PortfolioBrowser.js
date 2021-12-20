@@ -57,7 +57,8 @@ const PortfolioBrowser = (props) => {
    * @param {*} data 
    * @returns 
    */
-  const generatePortfolioListings = (data) => {
+  const generatePortfolioListings = () => {
+    console.log(browserData.projects)
     return browserData.projects.map((element, index) => {
       return <PortfolioListing key={ index } project={ element.node } browserData={ browserData } setBrowserData={ setBrowserData } />
     })
@@ -66,7 +67,7 @@ const PortfolioBrowser = (props) => {
   return (
     <div className="portfolio-browser-wrapper">
       <SkillSearch data={data} browserData={ browserData } setBrowserData={ setBrowserData } />
-      { generatePortfolioListings(data) }
+      { generatePortfolioListings() }
     </div>
   );
 }

@@ -1,0 +1,69 @@
+.social-media-wrapper
+{
+  margin-top: $unit-four;
+  margin-bottom: $unit-one;
+}
+
+.social-media-wrapper > div
+{
+  display: inline-block;
+  font-size: $unit-one;
+  margin-right: $unit-two;
+  margin-bottom: $unit-two;
+}
+
+
+.social-media-wrapper span.icon img
+{
+  border-radius: 40px;
+  background-color: #b9b9b9;
+
+  width: 40px;
+  height: 40px;
+
+  padding: 5px;
+  margin-right: 10px;
+
+  filter: grayscale(100);
+
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition:    all 0.1s ease-in-out;
+  -o-transition:      all 0.1s ease-in-out;
+  -ms-transition:     all 0.1s ease-in-out;
+  transition:         all 0.1s ease-in-out;
+}
+
+.social-media-wrapper a:link,
+.social-media-wrapper a:active,
+.social-media-wrapper a:visited
+{
+  color: #818181;
+  text-decoration: none;
+
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition:    all 0.1s ease-in-out;
+  -o-transition:      all 0.1s ease-in-out;
+  -ms-transition:     all 0.1s ease-in-out;
+  transition:         all 0.1s ease-in-out;
+}
+
+.social-media-wrapper > div:hover span.icon img
+{
+  background-color: #232323;
+  padding: 3px;
+  filter: grayscale(0);
+}
+
+.social-media-wrapper > div:hover a
+{
+  color: #232323;
+}
+
+@media (max-width: 1199.98px) {
+
+  .social-media-wrapper
+  {
+    text-align: center;
+  }
+
+}

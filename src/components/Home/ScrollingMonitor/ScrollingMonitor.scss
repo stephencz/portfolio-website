@@ -319,3 +319,10 @@ $code-parenthesis-color: #93A1A1;
   }
 
 }
+
+@media (max-width: 991.98px) {
+  .scrolling-monitor-wrapper 
+  {
+    margin-top: $unit-five;
+  }
+}
