@@ -14,8 +14,8 @@ const Navigation = (props) => {
             <ul>
               <li><a href="/">Home</a></li>
               <li><a href="/about">About</a></li>
-              <li><a href="/portfolio">Work</a></li>
-              <li><a href="/resume">Resume</a></li>
+              <li><a href="/work">Work</a></li>
+              <li><a href="mailto:stephencze243@gmail.com">Contact</a></li>
             </ul>
           </Col>
         </Row>

@@ -1,4 +1,5 @@
 import React from "react";
+
 import './ScrollingMonitor.scss';
 
 const ScrollingMonitor = (props) => {

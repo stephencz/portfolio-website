@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { useStaticQuery, graphql } from 'gatsby';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 
@@ -7,7 +6,6 @@ import ScrollingMonitor from '../ScrollingMonitor/ScrollingMonitor';
 import InteractiveKeyboard from '../InteractiveKeyboard/InteractiveKeyboard';
 import SocialMediaLinks from '../SocialMediaLinks/SocialMediaLinks';
 
-import AuthorImage from '../../../assets/images/author.png';
 import './Introduction.scss';
 
 const HomeIntroduction = (props) => {

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://www.stephencz.com",
     title: "Portfolio Website",
   },
   plugins: [
@@ -28,6 +28,21 @@ module.exports = {
         name: `data`,
         path: `${__dirname}/src/data/`
       }
-    }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown`,
+        path: `${__dirname}/src/markdown/`
+      }
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        footnotes: true,
+        gfm: true,
+        plugins: [],
+      }
+    },
   ],
 };

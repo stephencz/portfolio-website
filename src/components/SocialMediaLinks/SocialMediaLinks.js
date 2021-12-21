@@ -1,8 +1,8 @@
 import React from "react";
 
-import GitHub from '../../../assets/images/github.webp'
-import LinkedIn from '../../../assets/images/linkedin.webp'
-import Email from '../../../assets/images/mail.webp'
+import GitHub from '../../assets/images/github.webp'
+import LinkedIn from '../../assets/images/linkedin.webp'
+import Email from '../../assets/images/mail.webp'
 
 import "./SocialMediaLinks.scss"
 

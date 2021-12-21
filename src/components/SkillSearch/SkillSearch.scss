@@ -1,19 +1,19 @@
-$primary-color: #232323;
-$secondary-color: #353535;
+$primary-color: #333;
+$secondary-color: #7d7d7d;
 $white-color: #efefef;
 $black-color: #232323;
 
-$button-inactive-color: #9d9d9d;
-$button-hover-color: #fff;
+$button-inactive-color: #999999;
+$button-hover-color: #efefef;
 
 .skill-search-wrapper
 {
-  border-bottom: 5px solid $secondary-color;
+  border-top: 5px solid $secondary-color;
+
   background-color: $primary-color;
   color: $secondary-color;
-  padding-top: $unit-two;
-  padding-bottom: $unit-one;
-  margin-bottom: $unit-four;
+  padding-top: $unit-two; 
+  padding-bottom: $unit-four;
 }
 
 .skill-search-wrapper .skill-section
@@ -54,6 +54,8 @@ $button-hover-color: #fff;
 {
   background-color: $button-hover-color;
   color: $black-color;
+  padding: 5px 15px 5px 15px;
+  font-weight: 700;
 }
 
 .skill-search-wrapper input.search-bar

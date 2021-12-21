@@ -19,9 +19,12 @@ const PortfolioListing = (props) => {
 
       let name = project.name.trim().toLowerCase();
       let description = project.description.trim().toLowerCase();
+      let skills = project.skills.map((elem) => {
+        return elem.trim().toLowerCase();
+      })
 
       tokens.forEach((token) => {
-        if(name.includes(token) || description.includes(token)) {
+        if(name.includes(token) || description.includes(token) || skills.includes(token)) {
           matchFound = true;
         }
       })
@@ -68,13 +71,12 @@ const PortfolioListing = (props) => {
     if(visibility) {
 
       let color = props.project.color;
-      console.log("COLR: " + props.project.color);
 
       return (
           <div className="portfolio-listing-wrapper">
             <Container>
               <Row>
-                <Col className="mx-auto" lg={8}>
+                <Col className="mx-auto" lg={10}>
                 <a href={ props.project.url }>
                   <div className="project-wrapper" style={{backgroundColor: color}}>
                     <div className="project-information">

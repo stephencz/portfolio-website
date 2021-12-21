@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 
 import { useStaticQuery, graphql } from 'gatsby';
-import { Container, Row, Col } from 'react-bootstrap';
-
 import SkillSearch from '../SkillSearch/SkillSearch';
 import PortfolioListing from '../PortfolioListing/PortfolioListing';
 
@@ -58,7 +56,6 @@ const PortfolioBrowser = (props) => {
    * @returns 
    */
   const generatePortfolioListings = () => {
-    console.log(browserData.projects)
     return browserData.projects.map((element, index) => {
       return <PortfolioListing key={ index } project={ element.node } browserData={ browserData } setBrowserData={ setBrowserData } />
     })

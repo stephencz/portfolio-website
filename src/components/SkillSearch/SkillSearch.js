@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
-
-import { useStaticQuery, graphql } from 'gatsby';
 import { Container, Row, Col } from 'react-bootstrap';
 
 import SkillButton from '../SkillButton/SkillButton';
-
 import './SkillSearch.scss';
 
 /**

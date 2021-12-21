@@ -2,9 +2,9 @@ import * as React from "react"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Navigation from "../components/Home/Navigation/Navigation"
-import Introduction from "../components/Home/Introduction/Introduction"
-import PortfolioBrowser from "../components/Home/PortfolioBrowser/PortfolioBrowser"
+import Navigation from "../components/Navigation/Navigation"
+import Introduction from "../components/Introduction/Introduction"
+import PortfolioBrowser from "../components/PortfolioBrowser/PortfolioBrowser"
 import { Helmet } from "react-helmet";
 
 

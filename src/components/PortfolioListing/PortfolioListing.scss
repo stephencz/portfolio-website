@@ -1,11 +1,14 @@
-$card-background-color: #232323;
+
+$listing-background-color: #333;
+$card-background-color: #efefef;
 $card-inactive-color: #efefef;
 $card-active-color: #f00;
 
 .portfolio-listing-wrapper
 {
-  margin-top: $unit-two;
-  margin-bottom: $unit-two;
+  background-color: $listing-background-color;
+  padding-top: $unit-two;
+  padding-bottom: $unit-two;
 }
 
 .portfolio-listing-wrapper .project-wrapper
@@ -21,11 +24,12 @@ $card-active-color: #f00;
   -o-transition:      all 0.1s ease-in-out;
   -ms-transition:     all 0.1s ease-in-out;
   transition:         all 0.1s ease-in-out;
+
 }
 
 .portfolio-listing-wrapper .project-wrapper:hover
 {
-  opacity: 0.5;
+  opacity: 0.75;
 }
 
 .portfolio-listing-wrapper .project-wrapper:hover .project-image img

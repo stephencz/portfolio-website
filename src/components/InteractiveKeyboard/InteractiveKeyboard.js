@@ -14,7 +14,6 @@ const StandardKey = (props) => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      console.log("isLit? " + isLit);
       if(isLit === true) {
         setIsLit(false);
       } else {
@@ -49,7 +48,6 @@ const BigKey = (props) => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      console.log("isLit? " + isLit);
       if(isLit === true) {
         setIsLit(false);
       } else {
@@ -85,7 +83,6 @@ const SpaceKey = (props) => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      console.log("isLit? " + isLit);
       if(isLit === true) {
         setIsLit(false);
       } else {
@@ -103,8 +100,7 @@ const SpaceKey = (props) => {
       return "space-key";
     }
   }
-
-
+  
   return (
     <div className={ getClassName() }></div>
   );
