@@ -29,20 +29,5 @@ module.exports = {
         path: `${__dirname}/src/data/`
       }
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `markdown`,
-        path: `${__dirname}/src/markdown/`
-      }
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        footnotes: true,
-        gfm: true,
-        plugins: [],
-      }
-    },
   ],
 };

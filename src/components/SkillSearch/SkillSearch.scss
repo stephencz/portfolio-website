@@ -1,19 +1,21 @@
 $primary-color: #333;
-$secondary-color: #7d7d7d;
+$secondary-color: #4a4a4a;
 $white-color: #efefef;
 $black-color: #232323;
 
-$button-inactive-color: #999999;
-$button-hover-color: #efefef;
+$button-inactive-color: #fff;
+$button-hover-color: #1e73bd;
 
 .skill-search-wrapper
 {
   border-top: 5px solid $secondary-color;
+  border-bottom: 5px solid $secondary-color;
 
   background-color: $primary-color;
   color: $secondary-color;
   padding-top: $unit-two; 
-  padding-bottom: $unit-four;
+  padding-bottom: $unit-two;
+  margin-bottom: $unit-two;
 }
 
 .skill-search-wrapper .skill-section
@@ -53,9 +55,11 @@ $button-hover-color: #efefef;
 .skill-search-wrapper .section-buttons .skill-button.active
 {
   background-color: $button-hover-color;
-  color: $black-color;
-  padding: 5px 15px 5px 15px;
+  
   font-weight: 700;
+  color: $white-color;
+  
+  padding: 5px 15px 5px 15px;
 }
 
 .skill-search-wrapper input.search-bar
@@ -65,17 +69,16 @@ $button-hover-color: #efefef;
 
   color: $black-color;
   background-color: $button-inactive-color;
-  
-  padding: 5px 10px 5px 10px;
 
   width: 100%;
+
+  padding: 5px 10px 5px 10px;
 
   -webkit-transition: all 0.075s ease-in-out;
   -moz-transition:    all 0.075s ease-in-out;
   -o-transition:      all 0.075s ease-in-out;
   -ms-transition:     all 0.075s ease-in-out;
   transition:         all 0.075s ease-in-out;
-
 }
 
 .skill-search-wrapper input[type=text].search-bar:hover,
@@ -85,5 +88,4 @@ $button-hover-color: #efefef;
   background-color: $white-color;
   box-shadow: 0 1px 1px rgb(165, 165, 165) inset, 0 0 1px rgb(161, 161, 161);
   outline: 0 none;
-
 }

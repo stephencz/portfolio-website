@@ -1,6 +1,6 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 import ScrollingMonitor from '../ScrollingMonitor/ScrollingMonitor';
 import InteractiveKeyboard from '../InteractiveKeyboard/InteractiveKeyboard';
@@ -37,11 +37,11 @@ const HomeIntroduction = (props) => {
               </p>    
               <p>
                 Over the years, I've had the oppurtunity to work with a wide variety of programming languages, frameworks, and tools.
-                I've designed websites, full stack web applications, traditional software, video games, plugins, and more.
+                I've designed websites, full stack web applications, traditional software, video games, and more.
               </p>
               
               <p>
-                In all of my projects I strive to write code that is simple, beautiful, and effective.
+                In all of my projects I strive to write code that is simple, clean, and effective.
                 Below you can learn more about my past projects and work.
               </p>
             </div>

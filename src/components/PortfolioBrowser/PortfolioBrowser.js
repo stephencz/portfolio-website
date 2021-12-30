@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 
 import { useStaticQuery, graphql } from 'gatsby';
-import SkillSearch from '../SkillSearch/SkillSearch';
+
 import PortfolioListing from '../PortfolioListing/PortfolioListing';
+import SkillSearch from '../SkillSearch/SkillSearch';
 
 import './PortfolioBrowser.scss';
 
@@ -62,7 +63,7 @@ const PortfolioBrowser = (props) => {
   }
 
   return (
-    <div className="portfolio-browser-wrapper">
+    <div id="portfolio-browser" className="portfolio-browser-wrapper">
       <SkillSearch data={data} browserData={ browserData } setBrowserData={ setBrowserData } />
       { generatePortfolioListings() }
     </div>

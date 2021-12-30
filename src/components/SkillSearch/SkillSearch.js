@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
 import SkillButton from '../SkillButton/SkillButton';
@@ -14,9 +14,6 @@ import './SkillSearch.scss';
  * @returns 
  */
 const SkillSearch = (props) => {
-
-  /** The buttons that are active i.e. skills that are being searched for. */
-  const [activeButtons, setActiveButtons] = useState([]);
 
   /**
    * Generates a skill section which contains skill buttons the user can

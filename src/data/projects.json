@@ -4,6 +4,7 @@
     "name": "Task Manager",
     "description": "Web App",
     "url": "/portfolio/task-manager",
+    "demo_url": "stephencz.com/demo/taskmanager",
     "image": "/images/task_manager.webp",
     "color": "#366995",
     "skills": [
@@ -26,6 +27,7 @@
     "name": "Top Fifty Games",
     "description": "Website",
     "url": "/portfolio/top-fifty-games",
+    "demo_url": "stephencz.com/demo/taskmanager",
     "image": "/images/top_fifty_games.webp",
     "color": "#bd6033",
     "skills": [
@@ -49,6 +51,7 @@
     "name": "Maze Game",
     "description": "Game",
     "url": "/portfolio/maze-game",
+    "demo_url": "stephencz.com/demo/taskmanager",
     "image": "/images/maze_game.webp",
     "color": "#bd3333",
     "skills": [
@@ -68,6 +71,7 @@
     "name": "Jekyll Chess",
     "description": "Jekyll Plugin",
     "url": "/portfolio/jekyll-chess",
+    "demo_url": "stephencz.com/demo/taskmanager",
     "image": "/images/jekyll_chess.webp",
     "color": "#d77833",
     "skills": [
