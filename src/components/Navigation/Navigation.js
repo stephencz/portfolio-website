@@ -6,8 +6,18 @@ import "./Navigation.scss";
 
 const Navigation = (props) => {
 
+  const getStyle = () => {
+    if(props.color !== undefined) {
+      return {
+        backgroundColor: props.color
+      }
+    }
+
+    return {}
+  }
+
   return (
-    <div className="navigation-wrapper">
+    <div className="navigation-wrapper" style={getStyle()}>
       <Container>
         <Row>
           <Col className="mx-auto" lg={10}>

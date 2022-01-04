@@ -1,0 +1,25 @@
+.md-content-wrapper img.portfolio-project-introduction-image
+{
+  border-radius: 25px;
+  border: 1px solid rgb(223, 223, 223);
+
+  width: 100%;
+  height: auto;
+
+  max-height: 650px;
+
+  object-fit: contain;
+  object-position: 50% 50%;
+
+  margin-top: $unit-two;
+  margin-bottom: $unit-two;
+
+}
+
+@media (max-width:  991.98px)
+{
+  .md-content-wrapper img.portfolio-project-introduction-image
+  {
+    margin-top: $unit-two;
+  }
+}

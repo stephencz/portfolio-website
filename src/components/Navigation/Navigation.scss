@@ -1,8 +1,10 @@
 .navigation-wrapper
 {
-  background-color: #fff;
+  border-bottom: 5px solid #b5b5b5;
+  background-color: #353535;
   padding-top: $unit-two;
   padding-bottom: $unit-two;
+  margin-bottom: $unit-one;
 }
 
 .navigation-wrapper ul
@@ -24,7 +26,8 @@
 .navigation-wrapper ul li a:active,
 .navigation-wrapper ul li a:visited
 {
-  color: #818181;
+  color: #fff;
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -32,6 +35,6 @@
 
 .navigation-wrapper ul li a:hover
 {
-  color: #000;
+  color: rgb(182, 182, 182);
   text-decoration: underline;
 }

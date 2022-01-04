@@ -4,7 +4,8 @@
     "name": "Task Manager",
     "description": "Web App",
     "url": "/portfolio/task-manager",
-    "demo_url": "stephencz.com/demo/taskmanager",
+    "demo_url": "/demo/taskmanager",
+    "source_url": "https://github.com/stephencz/task-manager-frontend",
     "image": "/images/task_manager.webp",
     "color": "#366995",
     "skills": [
@@ -23,13 +24,14 @@
     ]
   },
   {
-    "id": "top-fifty-games",
+    "project-id": "top-fifty-games",
     "name": "Top Fifty Games",
     "description": "Website",
     "url": "/portfolio/top-fifty-games",
     "demo_url": "stephencz.com/demo/taskmanager",
+    "source_url": "https://github.com/stephencz/task-manager-frontend",
     "image": "/images/top_fifty_games.webp",
-    "color": "#bd6033",
+    "color": "#2aac56",
     "skills": [
       "HTML",
       "CSS",
@@ -47,11 +49,12 @@
     ]
   },
   {
-    "id": "maze-game",
+    "project-id": "maze-game",
     "name": "Maze Game",
     "description": "Game",
     "url": "/portfolio/maze-game",
     "demo_url": "stephencz.com/demo/taskmanager",
+    "source_url": "https://github.com/stephencz/task-manager-frontend",
     "image": "/images/maze_game.webp",
     "color": "#bd3333",
     "skills": [
@@ -67,11 +70,12 @@
     ]
   },
   {
-    "id": "jekyll-chess",
+    "project-id": "jekyll-chess",
     "name": "Jekyll Chess",
     "description": "Jekyll Plugin",
     "url": "/portfolio/jekyll-chess",
     "demo_url": "stephencz.com/demo/taskmanager",
+    "source_url": "https://github.com/stephencz/task-manager-frontend",
     "image": "/images/jekyll_chess.webp",
     "color": "#d77833",
     "skills": [

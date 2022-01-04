@@ -8,7 +8,7 @@ import PortfolioIntroduction from "../../components/Portfolio/PortfolioIntroduct
 import PortfolioBackground from "../../components/Portfolio/PortfolioBackground/PortfolioBackground";
 import PortfolioDemoAndSource from "../../components/Portfolio/PortfolioDemoAndSource/PortfolioDemoAndSource";
 
-const TaskManagerPortfolioPage = ({ data }) => {
+const MazeGamePortfolioPage = ({ data }) => {
 
   console.log(data);
 
@@ -16,7 +16,6 @@ const TaskManagerPortfolioPage = ({ data }) => {
     <main>
       <StandardLayout>
         <Content>
-
         <PortfolioIntroduction project={ data.allProjectsJson.nodes[0] } alt="A static chessboard generated using jekyll-chess.">
           <p>
           Task Manager is a full stack web application I created to help track, organize, and manage the tasks I need to complete.
@@ -109,8 +108,8 @@ const TaskManagerPortfolioPage = ({ data }) => {
 }
 
 export const query = graphql`
-  query TaskManagerPageQuery {
-    allProjectsJson(filter: {project_id: { eq:"task-manager"}}) {
+  query MazeGamePageQuery {
+    allProjectsJson(filter: {project_id: { eq:"maze-game"}}) {
       nodes {
         image
         url
@@ -124,4 +123,4 @@ export const query = graphql`
   }
 `;
 
-export default TaskManagerPortfolioPage
+export default MazeGamePortfolioPage
