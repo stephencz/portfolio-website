@@ -35,17 +35,17 @@
     ],
     "frameworks": [
       "Bootstrap",
-      "Electron",
       "Express.js",
       "Gatsby",
       "Jekyll",
       "Node.js",
       "React",
       "Redux",
-      "Sequelize",
-      "WordPress",
-      "LibGDX",
-      "Qt"
+      "LibGDX"
+    ],
+    "concepts": [
+      "REST",
+      "OOP"
     ]
   }
 }

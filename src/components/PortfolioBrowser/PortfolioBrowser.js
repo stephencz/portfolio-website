@@ -24,6 +24,7 @@ const PortfolioBrowser = (props) => {
           frameworks
           languages
           tools
+          concepts
         }
       }
     allProjectsJson {

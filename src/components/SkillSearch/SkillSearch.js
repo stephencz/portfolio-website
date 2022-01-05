@@ -67,6 +67,7 @@ const SkillSearch = (props) => {
     <div className="skill-search-wrapper">
       <Container>
         { generateSkillSection("Languages I Know: ", props.data, "languages") }
+        { generateSkillSection("Concepts I'm Familar With: ", props.data, "concepts") }
         { generateSkillSection("Tools I've Used: ", props.data, "tools") }
         { generateSkillSection("Frameworks I've Worked With: ", props.data, "frameworks") }
 

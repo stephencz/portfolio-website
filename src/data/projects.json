@@ -20,7 +20,8 @@
       "MySQL",
       "Git",
       "Linux",
-      "Visual Studio Code"
+      "Visual Studio Code",
+      "REST"
     ]
   },
   {
@@ -29,7 +30,7 @@
     "description": "Website",
     "url": "/portfolio/top-fifty-games",
     "demo_url": "stephencz.com/demo/taskmanager",
-    "source_url": "https://github.com/stephencz/task-manager-frontend",
+    "source_url": "https://github.com/stephencz/rowan-ci-capstone",
     "image": "/images/top_fifty_games.webp",
     "color": "#2aac56",
     "skills": [
@@ -45,7 +46,9 @@
       "Nginx",
       "MySQL",
       "Git",
-      "Visual Studio Code"
+      "Visual Studio Code",
+      "REST",
+      "Python"
     ]
   },
   {
@@ -53,8 +56,8 @@
     "name": "Maze Game",
     "description": "Game",
     "url": "/portfolio/maze-game",
-    "demo_url": "stephencz.com/demo/taskmanager",
-    "source_url": "https://github.com/stephencz/task-manager-frontend",
+    "demo_url": "/portfolio/maze-game",
+    "source_url": "https://github.com/stephencz/maze-game",
     "image": "/images/maze_game.webp",
     "color": "#bd3333",
     "skills": [
@@ -66,7 +69,8 @@
       "Ruby",
       "LibGDX",
       "Eclipse",
-      "Photoshop"
+      "Photoshop",
+      "OOP"
     ]
   },
   {
@@ -75,7 +79,7 @@
     "description": "Jekyll Plugin",
     "url": "/portfolio/jekyll-chess",
     "demo_url": "stephencz.com/demo/taskmanager",
-    "source_url": "https://github.com/stephencz/task-manager-frontend",
+    "source_url": "https://github.com/stephencz/jekyll-chess",
     "image": "/images/jekyll_chess.webp",
     "color": "#d77833",
     "skills": [
