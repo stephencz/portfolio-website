@@ -18,17 +18,18 @@ const TopFiftyGamesPortfolioPage = ({ data }) => {
         <Content>
         <PortfolioIntroduction project={ data.allProjectsJson.nodes[0] } alt="The homepage of topfiftygames.com.">
           <p>
-            Top Fifty Games was a website I created for my capstone experience at Rowan University.
-            The goal of the capstone experience was to create a website or application which used data from three to four public APIs.
-            My team decided to create a website that would determine and display the top fifty highest rated video games of all time.
-            Each game was displayed in a list and had its own dedicated page providing information such as publishers, platform availability, ESRB and PEGI ratings, as well as gameplay videos, images, and social media posts.
+            Top Fifty Games was a website I created for my capstone experience at <a href="https://www.rowan.edu/" target="_blank">Rowan University</a>.
+            The website used data from four public REST APIs to determine and display the top fifty highest rated video games of all time.
+            Each game was ranked in a list and had a dedicated page providing information about the game's release date, platform availability, publishers, ESRB/PEGI ratings, as well as gameplay videos, images, and social media posts.
           </p>
+
           <p>
-            During this project I led a team of four developers through a semester long, multi-phase, development project.
-            We collected data from the IGDB, Youtube, Bing Image Search, and Reddit <b>REST API</b>s using <b>Python</b>.
-            We configured a <b><abbr title="Linux, Nginx, MySQL, and PHP">LEMP</abbr></b> stack web server using <b><abbr title="Amazon Web Service">AWS</abbr></b> and <b>DigitalOcean</b>.
-            We related and mapped our data in a <b>MySQL</b> database system. 
-            And, finally, we designed a dynamic website to display our data using <b>HTML</b>, <b>CSS</b>, <b>Bootstrap</b>, and <b>PHP</b>.
+            During this project I led a team of four developers.
+            We used <b>Python</b> to pull data from four public <b>REST APIs</b> .
+            We used <b>AWS</b> and <b>DigitalOcean</b> to configure a <b>LEMP</b> (<b>Linux</b>, <b>Nginx</b>, <b>MariaDB</b>, and <b>PHP</b>) stack webserver.
+            We parsed our <b>JSON</b> data and stored in a RDBMS.
+            And, finally, we designed a reponsive website to display our data using <b>HTML</b>, <b>CSS</b>, <b>PHP</b>, and <b>Bootstrap</b>.
+            
           </p>
         </PortfolioIntroduction>
 

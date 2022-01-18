@@ -20,7 +20,8 @@
       "Python",
       "Ruby",
       "Sass",
-      "SQL"
+      "SQL",
+      "JSON"
     ],
     "tools": [
       "AWS",
@@ -45,7 +46,9 @@
     ],
     "concepts": [
       "REST",
-      "OOP"
+      "OOP",
+      "Frontend Development",
+      "Backend Development"
     ]
   }
 }

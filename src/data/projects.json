@@ -21,7 +21,10 @@
       "Git",
       "Linux",
       "Visual Studio Code",
-      "REST"
+      "REST",
+      "Frontend Development",
+      "Backend Development",
+      "JSON"
     ]
   },
   {
@@ -48,7 +51,10 @@
       "Git",
       "Visual Studio Code",
       "REST",
-      "Python"
+      "Python",
+      "Frontend Development",
+      "Backend Development",
+      "JSON"
     ]
   },
   {
@@ -91,7 +97,9 @@
       "Ruby",
       "Linux",
       "Git",
-      "Visual Studio Code"
+      "Visual Studio Code",
+      "Frontend Development",
+      "OOP"
     ]
   }
 ]

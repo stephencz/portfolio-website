@@ -12,7 +12,7 @@ const PortfolioDemoAndSource = (props) => {
     }
 
     return (
-      <p>There is not a live demo available for this project.</p>
+      <p>A live demo is not available for this project.</p>
     );
   }
 
