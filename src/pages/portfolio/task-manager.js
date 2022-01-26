@@ -32,7 +32,7 @@ const TaskManagerPortfolioPage = ({ data }) => {
           </p>
         </PortfolioIntroduction>
 
-        <PortfolioDemoAndSource project={ data.allProjectsJson.nodes[0] } hasDemo={ false } hasSource={ true } />
+        <PortfolioDemoAndSource project={ data.allProjectsJson.nodes[0] } hasDemo={ true } hasSource={ true } />
 
         <PortfolioTechnologies project={ data.allProjectsJson.nodes[0] }/>
         </Content>

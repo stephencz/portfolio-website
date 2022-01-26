@@ -4,7 +4,7 @@
     "name": "Task Manager",
     "description": "Web App",
     "url": "/portfolio/task-manager",
-    "demo_url": "/demo/taskmanager",
+    "demo_url": "https://taskmanager.stephencz.com",
     "source_url": "https://github.com/stephencz/task-manager-frontend",
     "image": "/images/task_manager.webp",
     "color": "#366995",
