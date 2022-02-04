@@ -28,6 +28,29 @@
     ]
   },
   {
+    "project-id": "wordathon",
+    "name": "Wordathon",
+    "description": "Web App",
+    "url": "/portfolio/wordathon",
+    "demo_url": "https://wordathon.stephencz.com",
+    "source_url": "https://github.com/stephencz/wordathon",
+    "image": "/images/wordathon.webp",
+    "color": "#74498f",
+    "skills": [
+      "HTML",
+      "CSS",
+      "SASS",
+      "Javascript",
+      "React",
+      "Redux",
+      "Git",
+      "Linux",
+      "Visual Studio Code",
+      "Frontend Development",
+      "JSON"
+    ]
+  },
+  {
     "project-id": "top-fifty-games",
     "name": "Top Fifty Games",
     "description": "Website",

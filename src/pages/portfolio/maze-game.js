@@ -1,6 +1,7 @@
 import * as React from "react"
 import { graphql } from "gatsby";
-import { Container, Row, Col } from "react-bootstrap";
+
+import Helmet from "react-helmet";
 
 import StandardLayout from "../../layouts/StandardLayout";
 import Content from '../../components/Content/Content';
@@ -15,6 +16,10 @@ const MazeGamePortfolioPage = ({ data }) => {
 
   return (
     <main>
+      <Helmet>
+        <title>Maze Game | Full Stack Software Engineer</title>
+        <meta name="description" content="A maze generation and solving game made with Java and LibGDX. Made by Stephen Czekalski." />
+      </Helmet>
       <StandardLayout>
         <Content>
         <PortfolioIntroduction project={ data.allProjectsJson.nodes[0] } alt="A static chessboard generated using jekyll-chess.">

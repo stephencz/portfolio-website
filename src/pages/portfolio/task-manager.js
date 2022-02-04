@@ -1,6 +1,7 @@
 import * as React from "react"
 import { graphql } from "gatsby";
-import { Container, Row, Col } from "react-bootstrap";
+
+import Helmet from "react-helmet";
 
 import StandardLayout from "../../layouts/StandardLayout";
 import Content from '../../components/Content/Content';
@@ -16,6 +17,10 @@ const TaskManagerPortfolioPage = ({ data }) => {
 
   return (
     <main>
+      <Helmet>
+        <title>Task Manager | Full Stack Software Engineer</title>
+        <meta name="description" content="A task management and organization web application that lets the user organize tasks by tags and deadlines. Made by Stephen Czekalski." />
+      </Helmet>
       <StandardLayout>
         <Content>
 

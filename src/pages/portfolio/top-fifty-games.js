@@ -1,6 +1,8 @@
 import * as React from "react"
 import { graphql } from "gatsby";
 
+import Helmet from "react-helmet";
+
 import StandardLayout from "../../layouts/StandardLayout";
 import Content from '../../components/Content/Content';
 import PortfolioIntroduction from "../../components/Portfolio/PortfolioIntroduction/PortfolioIntroduction";
@@ -14,6 +16,10 @@ const TopFiftyGamesPortfolioPage = ({ data }) => {
 
   return (
     <main>
+      <Helmet>
+        <title>Top Fifty Games | Full Stack Software Engineer</title>
+        <meta name="description" content="A website that displays the top fifty highest rated video games of all time. Made by Stephen Czekalski." />
+      </Helmet>
       <StandardLayout>
         <Content>
         <PortfolioIntroduction project={ data.allProjectsJson.nodes[0] } alt="The homepage of topfiftygames.com.">
