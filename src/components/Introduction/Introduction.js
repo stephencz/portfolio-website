@@ -36,8 +36,8 @@ const HomeIntroduction = (props) => {
                 Since writing my first lines of code in my early teens, it has been a constant source of challenge and fun.
               </p>    
               <p>
-                Over the years, I've had the oppurtunity to work with a wide variety of programming languages, frameworks, and tools.
-                I've designed websites, full stack web applications, traditional software, video games, and more.
+                Over the years, I've had the opportunity to work with a wide variety of programming languages, frameworks, and tools.
+                I've designed websites, full stack web applications, traditional software, games, and more.
               </p>
               
               <p>
