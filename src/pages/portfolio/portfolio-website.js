@@ -10,27 +10,25 @@ import PortfolioTechnologies from "../../components/Portfolio/PortfolioTechnolog
 import PortfolioSection from "../../components/Portfolio/PortfolioSection/PortfolioSection";
 
 
-const WordathonPortfolioPage = ({ data }) => {
+const PortoflioWebsitePortfolioPage = ({ data }) => {
 
   console.log(data);
 
   return (
     <main>
       <Helmet>
-        <title>Wordathon | Stephen Czekalski | Full Stack Software Engineer</title>
-        <meta name="description" content="A word game inspired by the popular game Wordle. Made by Stephen Czekalski." />
+        <title>Portfolio Website | Stephen Czekalski | Full Stack Software Engineer</title>
+        <meta name="description" content="A portfolio website to show off the projects completed by Stephen Czekalski." />
       </Helmet>
       <StandardLayout>
         <Content>
 
-        <PortfolioIntroduction project={ data.allProjectsJson.nodes[0] } alt="The Wordathon user interface.">
+        <PortfolioIntroduction project={ data.allProjectsJson.nodes[0] } alt="the homepage of Stephen Czekalski's portfolio website">
           <p>
-          Wordathon is a take on the popular word game <a href="https://www.powerlanguage.co.uk/wordle/">Wordle</a>.
-          Unlike Wordle, which only gives the player one puzzle a day, Wordathon challenges the user to solve several puzzles in a row to build
-          up a streak. Additionally, the game features difficulty levels to make the game more, or less, challenging.
-          </p>
-          <p>
-          The two technologies at the core of Wordathon are <b>React</b> and <b>Redux</b>.
+            My portfolio website is a website I created to show off who I am and my past work.
+            The website was built using the static website generator <b>Gatsby</b>.
+            The user interface was designed with <b>React</b>.
+            And <b>GraphQL</b> was used to query <b>JSON</b> data and easily generate new content.
           </p>
         </PortfolioIntroduction>
 
@@ -44,8 +42,8 @@ const WordathonPortfolioPage = ({ data }) => {
 }
 
 export const query = graphql`
-  query WordathonPageQuery {
-    allProjectsJson(filter: {project_id: { eq:"wordathon"}}) {
+  query PortfolioWebsitePageQuery {
+    allProjectsJson(filter: {project_id: { eq:"portfolio-website"}}) {
       nodes {
         image
         url
@@ -59,4 +57,4 @@ export const query = graphql`
   }
 `;
 
-export default WordathonPortfolioPage
+export default PortoflioWebsitePortfolioPage;

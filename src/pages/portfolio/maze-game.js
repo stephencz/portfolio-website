@@ -17,7 +17,7 @@ const MazeGamePortfolioPage = ({ data }) => {
   return (
     <main>
       <Helmet>
-        <title>Maze Game | Full Stack Software Engineer</title>
+        <title>Maze Game | Stephen Czekalski | Full Stack Software Engineer</title>
         <meta name="description" content="A maze generation and solving game made with Java and LibGDX. Made by Stephen Czekalski." />
       </Helmet>
       <StandardLayout>

@@ -51,6 +51,27 @@
     ]
   },
   {
+    "project-id": "portfolio-website",
+    "name": "Portfolio Website",
+    "description": "Website",
+    "url": "/portfolio/portfolio-website",
+    "demo_url": "https://stephencz.com",
+    "source_url": "https://github.com/stephencz/portfolio-website",
+    "image": "/images/portfolio.webp",
+    "color": "#b33636",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React",
+      "Gatsby",
+      "GraphQL",
+      "Linux",
+      "DigitalOcean",
+      "Sass"
+    ]
+  },
+  {
     "project-id": "top-fifty-games",
     "name": "Top Fifty Games",
     "description": "Website",
@@ -88,7 +109,7 @@
     "demo_url": "/portfolio/maze-game",
     "source_url": "https://github.com/stephencz/maze-game",
     "image": "/images/maze_game.webp",
-    "color": "#bd3333",
+    "color": "#4c65bf",
     "skills": [
       "Java",
       "Git",

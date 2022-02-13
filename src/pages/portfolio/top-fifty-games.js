@@ -17,7 +17,7 @@ const TopFiftyGamesPortfolioPage = ({ data }) => {
   return (
     <main>
       <Helmet>
-        <title>Top Fifty Games | Full Stack Software Engineer</title>
+        <title>Top Fifty Games | Stephen Czekalski | Full Stack Software Engineer</title>
         <meta name="description" content="A website that displays the top fifty highest rated video games of all time. Made by Stephen Czekalski." />
       </Helmet>
       <StandardLayout>

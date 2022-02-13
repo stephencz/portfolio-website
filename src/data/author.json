@@ -42,7 +42,8 @@
       "Node.js",
       "React",
       "Redux",
-      "LibGDX"
+      "LibGDX",
+      "GraphQL"
     ],
     "concepts": [
       "REST",

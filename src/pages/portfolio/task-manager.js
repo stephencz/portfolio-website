@@ -18,7 +18,7 @@ const TaskManagerPortfolioPage = ({ data }) => {
   return (
     <main>
       <Helmet>
-        <title>Task Manager | Full Stack Software Engineer</title>
+        <title>Task Manager | Stephen Czekalski | Full Stack Software Engineer</title>
         <meta name="description" content="A task management and organization web application that lets the user organize tasks by tags and deadlines. Made by Stephen Czekalski." />
       </Helmet>
       <StandardLayout>

@@ -17,7 +17,7 @@ const JekyllChessPortfolioPage = ({ data }) => {
   return (
     <main>
       <Helmet>
-        <title>Jekyll Chess | Full Stack Software Engineer</title>
+        <title>Jekyll Chess | Stephen Czekalski | Full Stack Software Engineer</title>
         <meta name="description" content="A plugin for the static site generator Jekyll that can render static chessboards. Made by Stephen Czekalski." />
       </Helmet>
       <StandardLayout>
