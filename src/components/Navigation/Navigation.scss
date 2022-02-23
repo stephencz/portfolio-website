@@ -1,7 +1,10 @@
 .navigation-wrapper
 {
+  background-color: #efefef;
+  border-bottom: 1px solid #cacaca;
+
   padding-top: $unit-two;
-  padding-bottom: $unit-two;
+  padding-bottom: $unit-one;
   margin-bottom: $unit-one;
 }
 
@@ -22,6 +25,7 @@
   
   padding-right: $unit-one;
   margin-right: $unit-one;
+  margin-bottom: $unit-one;
 }
 
 .navigation-wrapper ul li a:link,
@@ -39,4 +43,12 @@
 {
   color: rgb(182, 182, 182);
   text-decoration: underline;
+}
+
+@media (max-width: 560px) {
+
+  .navigation-wrapper ul li {
+    border-right: none;
+  }
+
 }

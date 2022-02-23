@@ -9,7 +9,6 @@ import './InteractiveKeyboard.scss';
  */
 const StandardKey = (props) => {
 
-
   const [isLit , setIsLit] = useState(false);
 
   useEffect(() => {
@@ -19,7 +18,7 @@ const StandardKey = (props) => {
       } else {
         setIsLit(true);
       }
-    }, Math.floor(Math.random() * 2000));
+    }, Math.floor(Math.random() * 1500));
 
     return () => clearInterval(interval);
   }, [isLit, setIsLit]);
@@ -53,7 +52,7 @@ const BigKey = (props) => {
       } else {
         setIsLit(true);
       }
-    }, Math.floor(Math.random() * 4000));
+    }, Math.floor(Math.random() * 1500));
 
     return () => clearInterval(interval);
   }, [isLit, setIsLit]);
