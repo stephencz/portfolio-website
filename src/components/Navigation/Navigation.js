@@ -23,7 +23,7 @@ const Navigation = (props) => {
           <Col className="mx-auto" lg={10}>
             <ul>
               <li><a href="/">Home</a></li>
-              <li><a href="/#portfolio-browser">Portfolio</a></li>
+              <li><a href="/#portfolio">Portfolio</a></li>
               <li><a href="mailto:stephencze243@gmail.com">Contact</a></li>
             </ul>
           </Col>

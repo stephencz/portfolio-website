@@ -1,4 +1,10 @@
-.md-content-wrapper img.portfolio-project-introduction-image
+.md-content-wrapper .gatsby-image-wrapper-constrained 
+{
+  width: 100%;
+  max-height: 550px;
+}
+
+.md-content-wrapper .gatsby-image-wrapper-constrained .img
 {
   border-radius: 25px;
   border: 1px solid rgb(223, 223, 223);
@@ -6,10 +12,9 @@
   width: 100%;
   height: auto;
 
-  max-height: 650px;
 
   object-fit: contain;
-  object-position: 50% 50%;
+  object-position: 0px 0px;
 
   margin-top: $unit-two;
   margin-bottom: $unit-two;
@@ -18,7 +23,7 @@
 
 @media (max-width:  991.98px)
 {
-  .md-content-wrapper img.portfolio-project-introduction-image
+  .md-content-wrapper .gatsby-image-wrapper-constrained
   {
     margin-top: $unit-two;
   }

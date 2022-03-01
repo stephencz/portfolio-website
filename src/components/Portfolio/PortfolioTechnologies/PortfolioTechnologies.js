@@ -1,10 +1,21 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-
-import SkillList from '../../SkillList/SkillList';
 import './PortfolioTechnologies.scss';
 
 const PortfolioTechnologies = (props) => {
+
+  const generateProjectSkillList = () => {
+    return props.project.skills.sort().map((skill, index) => {
+      return <div 
+                className="skill-list-skill" 
+                key={ index }
+                style={ {backgroundColor: props.project.color} }
+              >
+                { skill }
+              </div>
+    });
+  }
+
   return (
     <Container>
       <Row>
@@ -15,7 +26,9 @@ const PortfolioTechnologies = (props) => {
 
           <Row>
             <Col lg={ 12 }>
-              <SkillList project={ props.project } />
+              <div className="skill-list-wrapper">
+                { generateProjectSkillList() }
+              </div>
             </Col>
           </Row>
         </Col>

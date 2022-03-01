@@ -4,7 +4,6 @@ module.exports = {
     title: "Portfolio Website",
   },
   plugins: [
-    `gatsby-plugin-image`,
     `gatsby-transformer-json`,
     `gatsby-plugin-react-helmet`,
     {
@@ -29,5 +28,15 @@ module.exports = {
         path: `${__dirname}/src/data/`
       }
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/data/`
+      }
+    },
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
   ],
 };

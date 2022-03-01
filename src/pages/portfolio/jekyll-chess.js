@@ -8,7 +8,6 @@ import Content from '../../components/Content/Content';
 import PortfolioIntroduction from "../../components/Portfolio/PortfolioIntroduction/PortfolioIntroduction";
 import PortfolioDemoAndSource from "../../components/Portfolio/PortfolioDemoAndSource/PortfolioDemoAndSource";
 import PortfolioTechnologies from "../../components/Portfolio/PortfolioTechnologies/PortfolioTechnologies";
-import PortfolioSection from "../../components/Portfolio/PortfolioSection/PortfolioSection";
 
 const JekyllChessPortfolioPage = ({ data }) => {
 
@@ -44,7 +43,6 @@ export const query = graphql`
   query JekyllChessPageQuery {
     allProjectsJson(filter: {project_id: { eq:"jekyll-chess"}}) {
       nodes {
-        image
         url
         skills
         name

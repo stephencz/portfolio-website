@@ -1,13 +1,14 @@
 import React from "react";
+import "./ProjectTypeButton.scss";
 
-const SkillButton = (props) => {
+const ProjectTypeButton = (props) => {
 
   const getButtonStyles = () => {
     if(props.browserData.activeButtons.includes(props.text)) {
-      return "skill-button active";
+      return "project-type-button active";
     }
 
-    return "skill-button";
+    return "project-type-button";
   }
 
   const handleButtonClick = (event) => {
@@ -23,7 +24,7 @@ const SkillButton = (props) => {
       props.setBrowserData({
         ...props.browserData,
         activeButtons: [props.text],
-        searchData: ""
+        searchData: props.text
       })
     }
     
@@ -40,4 +41,4 @@ const SkillButton = (props) => {
 
 };
 
-export default SkillButton;
+export default ProjectTypeButton;

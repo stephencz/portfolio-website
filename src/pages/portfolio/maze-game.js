@@ -1,14 +1,13 @@
 import * as React from "react"
 import { graphql } from "gatsby";
 
-import Helmet from "react-helmet";
+import { Helmet } from "react-helmet";
 
 import StandardLayout from "../../layouts/StandardLayout";
 import Content from '../../components/Content/Content';
 import PortfolioIntroduction from "../../components/Portfolio/PortfolioIntroduction/PortfolioIntroduction";
 import PortfolioDemoAndSource from "../../components/Portfolio/PortfolioDemoAndSource/PortfolioDemoAndSource";
 import PortfolioTechnologies from "../../components/Portfolio/PortfolioTechnologies/PortfolioTechnologies";
-import PortfolioSection from "../../components/Portfolio/PortfolioSection/PortfolioSection";
 
 const MazeGamePortfolioPage = ({ data }) => {
 
@@ -44,7 +43,6 @@ export const query = graphql`
   query MazeGamePageQuery {
     allProjectsJson(filter: {project_id: { eq:"maze-game"}}) {
       nodes {
-        image
         url
         skills
         name

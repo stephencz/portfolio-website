@@ -1,0 +1,32 @@
+
+$button-font-color: #efefef;
+$button-inactive-color: #232323;
+$button-hover-color: #a5a5a5;
+
+.project-type-button
+{
+  display: inline-block;
+
+  border-radius: 10px;
+
+  color: $button-font-color;
+  background-color: $button-inactive-color;
+
+  padding: 5px 10px 5px 10px;
+  margin-right: 10px;
+  margin-bottom: $unit-half;
+
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition:    all 0.1s ease-in-out;
+  -o-transition:      all 0.1s ease-in-out;
+  -ms-transition:     all 0.1s ease-in-out;
+  transition:         all 0.1s ease-in-out;
+}
+
+.project-type-button:hover,
+.project-type-button.active
+{
+  background-color: $button-hover-color;
+  font-weight: 700;
+  padding: 5px 15px 5px 15px;
+}

@@ -67,6 +67,12 @@ $card-active-color: #f00;
   text-align: right;
 }
 
+
+.portfolio-listing-wrapper .project-wrapper .project-image .gatsby-image-wrapper-constrained
+{
+  width: 100%;
+}
+
 .portfolio-listing-wrapper .project-wrapper .project-image img
 {
   display: block;

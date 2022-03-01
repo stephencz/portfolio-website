@@ -17,16 +17,6 @@ const PortfolioIntroduction = (props) => {
           </Col>
       </Row>
 
-      <Row>
-        <Col xl={10} className="mx-auto" >
-            <img 
-              className="portfolio-project-introduction-image" 
-              style={{ backgroundColor: props.project.color }} 
-              src={ props.project.image } 
-              alt={ props.alt} 
-            />
-        </Col>
-      </Row>
     </Container>
   );
 

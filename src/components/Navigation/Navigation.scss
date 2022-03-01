@@ -1,6 +1,6 @@
 .navigation-wrapper
 {
-  background-color: #efefef;
+  background-color: #353535;
   border-bottom: 1px solid #cacaca;
 
   padding-top: $unit-two;
@@ -32,16 +32,14 @@
 .navigation-wrapper ul li a:active,
 .navigation-wrapper ul li a:visited
 {
-  color: #000;
+  color: #efefef;
   font-weight: 700;
   text-decoration: none;
 }
 
-
-
 .navigation-wrapper ul li a:hover
 {
-  color: rgb(182, 182, 182);
+  color: #b6b6b6;
   text-decoration: underline;
 }
 

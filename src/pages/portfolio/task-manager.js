@@ -8,8 +8,6 @@ import Content from '../../components/Content/Content';
 import PortfolioIntroduction from "../../components/Portfolio/PortfolioIntroduction/PortfolioIntroduction";
 import PortfolioDemoAndSource from "../../components/Portfolio/PortfolioDemoAndSource/PortfolioDemoAndSource";
 import PortfolioTechnologies from "../../components/Portfolio/PortfolioTechnologies/PortfolioTechnologies";
-import PortfolioSection from "../../components/Portfolio/PortfolioSection/PortfolioSection";
-
 
 const TaskManagerPortfolioPage = ({ data }) => {
 
@@ -50,7 +48,6 @@ export const query = graphql`
   query TaskManagerPageQuery {
     allProjectsJson(filter: {project_id: { eq:"task-manager"}}) {
       nodes {
-        image
         url
         skills
         name

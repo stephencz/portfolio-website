@@ -1,12 +1,11 @@
-import * as React from "react"
+import * as React from "react";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Navigation from "../components/Navigation/Navigation"
-import Introduction from "../components/Introduction/Introduction"
-import PortfolioBrowser from "../components/PortfolioBrowser/PortfolioBrowser"
 import { Helmet } from "react-helmet";
-
+import Navigation from "../components/Navigation/Navigation";
+import Introduction from "../components/Introduction/Introduction";
+import ProjectTypeBrowser from "../components/ProjectTypeBrowser/ProjectTypeBrowser";
 
 const IndexPage = (prop) => {
   return (
@@ -17,7 +16,7 @@ const IndexPage = (prop) => {
       </Helmet>
       <Navigation />
       <Introduction />
-      <PortfolioBrowser />
+      <ProjectTypeBrowser />
     </main>
   )
 }

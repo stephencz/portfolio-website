@@ -2,11 +2,11 @@
   {
     "project-id": "task-manager",
     "name": "Task Manager",
-    "description": "Web App",
+    "type": "Web Application",
     "url": "/portfolio/task-manager",
     "demo_url": "https://taskmanager.stephencz.com",
     "source_url": "https://github.com/stephencz/task-manager-frontend",
-    "image": "/images/task_manager.webp",
+    "image": "./task_manager.webp",
     "color": "#366995",
     "skills": [
       "HTML",
@@ -30,11 +30,11 @@
   {
     "project-id": "wordathon",
     "name": "Wordathon",
-    "description": "Web App",
+    "type": "Web Application",
     "url": "/portfolio/wordathon",
     "demo_url": "https://wordathon.stephencz.com",
     "source_url": "https://github.com/stephencz/wordathon",
-    "image": "/images/wordathon.webp",
+    "image": "./wordathon.webp",
     "color": "#74498f",
     "skills": [
       "HTML",
@@ -53,11 +53,11 @@
   {
     "project-id": "portfolio-website",
     "name": "Portfolio Website",
-    "description": "Website",
+    "type": "Website",
     "url": "/portfolio/portfolio-website",
     "demo_url": "https://stephencz.com",
     "source_url": "https://github.com/stephencz/portfolio-website",
-    "image": "/images/portfolio.webp",
+    "image": "./portfolio.webp",
     "color": "#b33636",
     "skills": [
       "HTML",
@@ -75,11 +75,11 @@
   {
     "project-id": "top-fifty-games",
     "name": "Top Fifty Games",
-    "description": "Website",
+    "type": "Website",
     "url": "/portfolio/top-fifty-games",
     "demo_url": "stephencz.com/demo/taskmanager",
     "source_url": "https://github.com/stephencz/rowan-ci-capstone",
-    "image": "/images/top_fifty_games.webp",
+    "image": "./top_fifty_games.webp",
     "color": "#2aac56",
     "skills": [
       "HTML",
@@ -105,11 +105,11 @@
   {
     "project-id": "maze-game",
     "name": "Maze Game",
-    "description": "Game",
+    "type": "Game",
     "url": "/portfolio/maze-game",
     "demo_url": "/portfolio/maze-game",
     "source_url": "https://github.com/stephencz/maze-game",
-    "image": "/images/maze_game.webp",
+    "image": "./maze_game.webp",
     "color": "#4c65bf",
     "skills": [
       "Java",
@@ -127,11 +127,11 @@
   {
     "project-id": "jekyll-chess",
     "name": "Jekyll Chess",
-    "description": "Jekyll Plugin",
+    "type": "Extension",
     "url": "/portfolio/jekyll-chess",
     "demo_url": "stephencz.com/demo/taskmanager",
     "source_url": "https://github.com/stephencz/jekyll-chess",
-    "image": "/images/jekyll_chess.webp",
+    "image": "./jekyll_chess.webp",
     "color": "#d77833",
     "skills": [
       "HTML",

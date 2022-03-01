@@ -1,5 +1,7 @@
 import React from 'react';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import { Container, Row, Col } from 'react-bootstrap';
+
 
 import './PortfolioListing.scss';
 
@@ -14,52 +16,16 @@ const PortfolioListing = (props) => {
   const getVisibility = (project) => {
 
     if(props.browserData.searchData !== "") {
-      let matchFound = false;
-      let tokens = props.browserData.searchData.trim().toLowerCase().split(" ");
-
-      let name = project.name.trim().toLowerCase();
-      let description = project.description.trim().toLowerCase();
-      let skills = project.skills.map((elem) => {
-        return elem.trim().toLowerCase();
-      })
-
-      tokens.forEach((token) => {
-        if(name.includes(token) || description.includes(token) || skills.includes(token)) {
-          matchFound = true;
-        }
-      })
-
-      if(matchFound) {
+      if(props.browserData.searchData === project.type) {
         return true;
       }
-
-      return false;
-
+    
     } else {
-      let matchesNeeded = props.browserData.activeButtons.length;
+      return true;
 
-      // Determine if skills match
-      if(matchesNeeded > 0) {
-  
-        props.browserData.activeButtons.forEach((button) => {
-          project.skills.forEach((skill) => {
-            if(button.toLowerCase() === skill.toLowerCase()) {
-              matchesNeeded -= 1;
-            }
-          })
-        })
-      } else {
-        return true;
-      }
-  
-      if(matchesNeeded <= 0) {
-        return true;
-      
-      } else {
-        return false;
-  
-      }
     }
+
+    return false;
   }
 
   /**
@@ -85,12 +51,15 @@ const PortfolioListing = (props) => {
                           <div className="project-name">{ props.project.name }</div>
                         </Col>
                         <Col xs={6}>
-                          <div className="project-description">{ props.project.description }</div>
+                          <div className="project-description">{ props.project.type }</div>
                         </Col>
                       </Row>
                     </div>
                     <div className="project-image">
-                      <img src={ props.project.image } alt={"An image of the " + props.project.name + " portfolio project."} />
+                      < GatsbyImage
+                        image={ getImage(props.project.image) }
+                        alt={ "the " + props.project.name + " portfolio project." }
+                      />
                     </div>
                   </div>
                 </a>

@@ -1,12 +1,11 @@
 import * as React from "react"
-import { graphql } from "gatsby";
+import { Link, graphql } from "gatsby";
 
 import Helmet from "react-helmet";
 
 import StandardLayout from "../../layouts/StandardLayout";
 import Content from '../../components/Content/Content';
 import PortfolioIntroduction from "../../components/Portfolio/PortfolioIntroduction/PortfolioIntroduction";
-import PortfolioSection from "../../components/Portfolio/PortfolioSection/PortfolioSection";
 import PortfolioDemoAndSource from "../../components/Portfolio/PortfolioDemoAndSource/PortfolioDemoAndSource";
 import PortfolioTechnologies from "../../components/Portfolio/PortfolioTechnologies/PortfolioTechnologies";
 
@@ -24,7 +23,7 @@ const TopFiftyGamesPortfolioPage = ({ data }) => {
         <Content>
         <PortfolioIntroduction project={ data.allProjectsJson.nodes[0] } alt="The homepage of topfiftygames.com.">
           <p>
-            Top Fifty Games was a website I created for my capstone experience at <a href="https://www.rowan.edu/" target="_blank">Rowan University</a>.
+            Top Fifty Games was a website I created for my capstone experience at <Link to="https://www.rowan.edu/">Rowan University</Link>.
             The website used data from four public REST APIs to determine and display the top fifty highest rated video games of all time.
             Each game was ranked in a list and had a dedicated page providing information about the game's release date, platform availability, publishers, ESRB/PEGI ratings, as well as gameplay videos, images, and social media posts.
           </p>
@@ -53,7 +52,6 @@ export const query = graphql`
   query TopFiftyGamesQuery {
     allProjectsJson(filter: {project_id: { eq:"top-fifty-games"}}) {
       nodes {
-        image
         url
         skills
         name
