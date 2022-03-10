@@ -36,6 +36,35 @@ const StandardKey = (props) => {
   );
 }
 
+const UnpressedStandardKey = (props) => {
+
+  const [isLit , setIsLit] = useState(false);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if(isLit === true) {
+        setIsLit(false);
+      } else {
+        setIsLit(true);
+      }
+    }, Math.floor(Math.random() * 20000));
+
+    return () => clearInterval(interval);
+  }, [isLit, setIsLit]);
+
+  const getClassName = () => {
+    if(isLit) {
+      return "standard-key lit";
+    } else {
+      return "standard-key";
+    }
+  }
+
+  return (
+    <div className={ getClassName() }></div>
+  );
+}
+
 /**
  * Approx. the size of two standard keys
  * @param {*} props 
@@ -52,7 +81,7 @@ const BigKey = (props) => {
       } else {
         setIsLit(true);
       }
-    }, Math.floor(Math.random() * 1500));
+    }, Math.floor(Math.random() * 5000));
 
     return () => clearInterval(interval);
   }, [isLit, setIsLit]);
@@ -130,9 +159,9 @@ const Keyboard = (props) => {
         <StandardKey />
         <BigKey />
         <EmptyKey/>
-        <StandardKey />
-        <StandardKey />
-        <StandardKey />
+        <UnpressedStandardKey />
+        <UnpressedStandardKey />
+        <UnpressedStandardKey />
       </div>
       <div className="key-row">
         <BigKey/>
@@ -149,9 +178,9 @@ const Keyboard = (props) => {
         <StandardKey />
         <BigKey/>
         <EmptyKey/>
-        <StandardKey />
-        <StandardKey />
-        <StandardKey />
+        <UnpressedStandardKey />
+        <UnpressedStandardKey />
+        <UnpressedStandardKey />
       </div>
       <div className="key-row">
         <BigKey/>

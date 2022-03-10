@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Helmet } from "react-helmet";
 import Navigation from "../components/Navigation/Navigation";
 import Introduction from "../components/Introduction/Introduction";
+import Education from "../components/Education/Education";
 import ProjectTypeBrowser from "../components/ProjectTypeBrowser/ProjectTypeBrowser";
 
 const IndexPage = (prop) => {

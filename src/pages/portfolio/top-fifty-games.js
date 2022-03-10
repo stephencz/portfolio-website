@@ -23,7 +23,7 @@ const TopFiftyGamesPortfolioPage = ({ data }) => {
         <Content>
         <PortfolioIntroduction project={ data.allProjectsJson.nodes[0] } alt="The homepage of topfiftygames.com.">
           <p>
-            Top Fifty Games was a website I created for my capstone experience at <Link to="https://www.rowan.edu/">Rowan University</Link>.
+            Top Fifty Games was a website I created for my capstone experience at Rowan University.
             The website used data from four public REST APIs to determine and display the top fifty highest rated video games of all time.
             Each game was ranked in a list and had a dedicated page providing information about the game's release date, platform availability, publishers, ESRB/PEGI ratings, as well as gameplay videos, images, and social media posts.
           </p>

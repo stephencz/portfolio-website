@@ -95,6 +95,13 @@ $key-active-color: #e9e9e9;
 
 .interactive-keyboard .lit
 {
-  background-color: $key-active-color !important;
-  border-bottom: 2px solid rgb(167, 163, 141) !important;
+  // background-color: $key-active-color !important;
+  // border-bottom: 2px solid rgb(167, 163, 141) !important;
+  animation-name: keyPressedAnimation;
+  animation-duration: 1s;
+}
+
+@keyframes keyPressedAnimation {
+  from { background-color: $key-active-color; }
+  to { background-color: $key-inactive-color; }
 }
