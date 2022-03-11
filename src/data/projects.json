@@ -51,7 +51,7 @@
     ]
   },
   {
-    "project-id": "portfolio-website",
+    "project_id": "portfolio-website",
     "name": "Portfolio Website",
     "type": "Website",
     "url": "/portfolio/portfolio-website",
@@ -100,6 +100,24 @@
       "Frontend Development",
       "Backend Development",
       "JSON"
+    ]
+  },
+  {
+    "project-id": "fake-tweet-generator",
+    "name": "Fake Tweet Generator",
+    "type": "Web Application",
+    "url": "/portfolio/fake-tweet-generator",
+    "demo_url": "stephencz.com/demo/fake-tweet-generator",
+    "source_url": "https://github.com/stephencz/fake-tweet-generator",
+    "image": "./fake-tweet-generator.webp",
+    "color": "#cfb950",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React",
+      "Frontend Development",
+      "Sass"
     ]
   },
   {
