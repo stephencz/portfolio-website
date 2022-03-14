@@ -1,8 +1,9 @@
 [
   {
-    "project-id": "task-manager",
+    "project_id": "task-manager",
     "name": "Task Manager",
     "type": "Web Application",
+    "description": "A full stack web application to help user organize and track tasks using a system of deadlines and tags.",
     "url": "/portfolio/task-manager",
     "demo_url": "https://taskmanager.stephencz.com",
     "source_url": "https://github.com/stephencz/task-manager-frontend",
@@ -28,9 +29,10 @@
     ]
   },
   {
-    "project-id": "wordathon",
+    "project_id": "wordathon",
     "name": "Wordathon",
     "type": "Web Application",
+    "description": "A clone of the popular game Worlde, with the key difference being the ability to play multiple games a day.",
     "url": "/portfolio/wordathon",
     "demo_url": "https://wordathon.stephencz.com",
     "source_url": "https://github.com/stephencz/wordathon",
@@ -54,6 +56,7 @@
     "project_id": "portfolio-website",
     "name": "Portfolio Website",
     "type": "Website",
+    "description": "Stephen Czekalski's portfolio website displaying his education, experience, and projects.",
     "url": "/portfolio/portfolio-website",
     "demo_url": "https://stephencz.com",
     "source_url": "https://github.com/stephencz/portfolio-website",
@@ -73,9 +76,10 @@
     ]
   },
   {
-    "project-id": "top-fifty-games",
+    "project_id": "top-fifty-games",
     "name": "Top Fifty Games",
     "type": "Website",
+    "description": "My capstone experience project at Rowan University. A website that displayed the top fifty highest rated video games of all time.",
     "url": "/portfolio/top-fifty-games",
     "demo_url": "stephencz.com/demo/taskmanager",
     "source_url": "https://github.com/stephencz/rowan-ci-capstone",
@@ -103,14 +107,15 @@
     ]
   },
   {
-    "project-id": "fake-tweet-generator",
+    "project_id": "fake-tweet-generator",
     "name": "Fake Tweet Generator",
     "type": "Web Application",
+    "description": "A web application capable of generating convincing fake tweets.",
     "url": "/portfolio/fake-tweet-generator",
     "demo_url": "stephencz.com/demo/fake-tweet-generator",
     "source_url": "https://github.com/stephencz/fake-tweet-generator",
     "image": "./fake-tweet-generator.webp",
-    "color": "#cfb950",
+    "color": "#64aecb",
     "skills": [
       "HTML",
       "CSS",
@@ -121,9 +126,10 @@
     ]
   },
   {
-    "project-id": "maze-game",
+    "project_id": "maze-game",
     "name": "Maze Game",
     "type": "Game",
+    "description": "A video game that can generate square and hexagonal mazes.",
     "url": "/portfolio/maze-game",
     "demo_url": "/portfolio/maze-game",
     "source_url": "https://github.com/stephencz/maze-game",
@@ -143,9 +149,10 @@
     ]
   },
   {
-    "project-id": "jekyll-chess",
+    "project_id": "jekyll-chess",
     "name": "Jekyll Chess",
     "type": "Extension",
+    "description": "An extension to the static site generator Jekyll that generates static chessboards from FEN notation.",
     "url": "/portfolio/jekyll-chess",
     "demo_url": "stephencz.com/demo/taskmanager",
     "source_url": "https://github.com/stephencz/jekyll-chess",

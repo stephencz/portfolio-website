@@ -4,7 +4,7 @@ import './PortfolioDemoAndSource.scss';
 
 const PortfolioDemoAndSource = (props) => {
   const getDemo = () => {
-    if(props.hasDemo) {
+    if(props.project.demo_url !== null) {
       return (
         <p>A live demo for this project can be found <a href={ props.project.demo_url }>here</a>.</p>
       );
@@ -17,7 +17,7 @@ const PortfolioDemoAndSource = (props) => {
   }
 
   const getSource = () => {
-    if(props.hasSource) {
+    if(props.project.source_url !== null) {
       return (
         <p>The source code for this project can be found <a href={ props.project.source_url }>here</a>.</p>
       );

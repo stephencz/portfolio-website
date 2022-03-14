@@ -18,9 +18,19 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             color
             demo_url
             source_url
+            description
+          }
+        } 
+      }
+      allMarkdownRemark {
+        edges {
+          node {
+            frontmatter {
+              id
+            }
+            html
           }
         }
-        
       }
     }
     `
@@ -33,12 +43,15 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   const portfolioPageTemplate = path.resolve(`src/templates/PortfolioTemplate.js`);
   results.data.allProjectsJson.edges.forEach(({ node }) => {
-    const path = "./portfolio/" + node.project_id;
+    const path = "/portfolio/" + node.project_id;
+    const html = results.data.allMarkdownRemark.edges.find((mdNode) => mdNode.node.frontmatter.id === node.project_id);
+
     createPage({
       path,
       component: portfolioPageTemplate,
       context: {
-        portfolioData: node
+        portfolioData: node,
+        html: html.node.html
       }
     })
   });
