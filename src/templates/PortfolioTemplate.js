@@ -1,4 +1,5 @@
 import React from "react";
+import { graphql } from "gatsby"
 
 import StandardLayout from "../layouts/StandardLayout";
 import { Helmet } from "react-helmet";
@@ -10,8 +11,6 @@ import PortfolioDemoAndSource from "../components/PortfolioDemoAndSource/Portfol
 import PortfolioTechnologies from "../components/PortfolioTechnologies/PortfolioTechnologies";
 
 const PortfolioTemplate = (props) => {
-
-  console.log(props);
 
   return (
     <main>
@@ -30,5 +29,9 @@ const PortfolioTemplate = (props) => {
   );
 
 };
+
+const data = graphql`
+  
+`
 
 export default PortfolioTemplate;
